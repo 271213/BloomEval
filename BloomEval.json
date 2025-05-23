@@ -1,0 +1,1373 @@
+[
+  {
+    "Problem": "Given a hyperbola C with its center at the origin and foci on the y-axis. If one of the asymptotes of hyperbola C is parallel to the line $\\sqrt{2}x-y-1=0$, then the eccentricity of the hyperbola C is __(    )__.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conic Sections -> Hyperbola",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the standard form of a hyperbola centered at the origin with vertical transverse axis. Understand: Explain the relationship between the asymptotes and the hyperbola's parameters. Apply: Use the slope of the given line to determine the hyperbola's parameters. Analyze: Break down the relationship between the hyperbola's eccentricity and its parameters.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard form of a hyperbola centered at the origin with vertical transverse axis: $\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1$. The asymptotes are given by $y = \\pm \\frac{a}{b}x$.",
+      "Step 2 (Understand): Explain that the slope of the asymptotes is $\\pm \\frac{a}{b}$. Given that one asymptote is parallel to the line $\\sqrt{2}x - y - 1 = 0$, which has slope $\\sqrt{2}$, we have $\\frac{a}{b} = \\sqrt{2}$.",
+      "Step 3 (Apply): Use the relationship $\\frac{a}{b} = \\sqrt{2}$ to express $a$ in terms of $b$: $a = b\\sqrt{2}$.",
+      "Step 4 (Analyze): Recall the formula for the eccentricity of a hyperbola: $e = \\sqrt{1 + \\frac{b^2}{a^2}}$. Substitute $a = b\\sqrt{2}$ into the formula to find $e = \\sqrt{1 + \\frac{b^2}{2b^2}} = \\sqrt{1 + \\frac{1}{2}} = \\sqrt{\\frac{3}{2}} = \\frac{\\sqrt{6}}{2}$."
+    ],
+    "Final Answer": "\\frac{\\sqrt{6}}{2}"
+  },
+  {
+    "Problem": "The sum of the horizontal and vertical intercepts of the line $3x - 2y - 6 = 0$ is (\\ \\ ).",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations -> Intercepts",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the concept of intercepts for a linear equation. Understand: Identify the x- and y-intercepts from the given equation. Apply: Calculate the intercepts and find their sum.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the x-intercept occurs when y=0, and the y-intercept occurs when x=0.",
+      "Step 2 (Understand): For the given equation $3x - 2y - 6 = 0$, substitute y=0 to find the x-intercept: $3x - 6 = 0$, so $x = 2$. Substitute x=0 to find the y-intercept: $-2y - 6 = 0$, so $y = -3$.",
+      "Step 3 (Apply): Add the intercepts: $2 + (-3) = -1$."
+    ],
+    "Final Answer": "-1"
+  },
+  {
+    "Problem": "In the Cartesian coordinate plane, if a circle passing through the origin with radius $r$ is completely contained within the region $y \\geqslant x^{4}$, then the maximum value of $r$ is \\qquad - .",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Circles",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the equation of a circle and the inequality defining the region. Understand: Explain the geometric relationship between the circle and the curve $y = x^4$. Apply: Use calculus to find the point of tangency between the circle and the curve. Analyze: Compare the radius at the point of tangency to ensure the circle remains within the region.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the equation of a circle centered at the origin: $x^2 + y^2 = r^2$. The region is defined by $y \\geqslant x^4$.",
+      "Step 2 (Understand): To maximize $r$, the circle should be tangent to the curve $y = x^4$. At the point of tangency, the slope of the tangent line to the circle equals the slope of the tangent line to the curve.",
+      "Step 3 (Apply): Differentiate $y = x^4$ to get the slope of the tangent line: $\\frac{dy}{dx} = 4x^3$. Set this equal to the slope of the tangent line to the circle at $(x, y)$: $\\frac{dy}{dx} = -\\frac{x}{y}$. Equate and solve for $x$ and $y$.",
+      "Step 4 (Analyze): Substitute $y = x^4$ into the circle's equation: $x^2 + (x^4)^2 = r^2$. Simplify to find $r$: $x^2 + x^8 = r^2$. Maximize $r$ by solving for $x$ where the derivative of $x^2 + x^8$ with respect to $x$ equals zero. Find $x = \\sqrt[6]{\\frac{1}{4}}$. Substitute back to find $r = \\sqrt{\\frac{5}{4}\\sqrt[3]{\\frac{1}{4}}}$. Simplify to get the maximum $r$."
+    ],
+    "Final Answer": "\\sqrt{\\frac{5}{4}\\sqrt[3]{\\frac{1}{4}}}"
+  },
+  {
+    "Problem": "It is clear from the bar chart how much of each quantity there is.",
+    "Knowledge Point Hierarchy": "Mathematics -> Statistics -> Data Representation -> Bar Charts",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the information presented in a bar chart and identify quantities associated with each category.",
+    "Solution steps": [
+      "Step 1 (Remember): Look at the bar chart and read the values corresponding to each category as shown."
+    ],
+    "Final Answer": "Dependent on the specific bar chart data provided."
+  },
+  {
+    "Problem": "Find the focal length of the hyperbola \\frac{x^{2}}{m^{2}+12} - \\frac{y^{2}}{4-m^{2}} = 1.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conic Sections -> Hyperbola",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the standard form of a hyperbola and the formula for its focal length. Understand: Identify the parameters of the hyperbola from the given equation. Apply: Apply the formula for the focal length using the identified parameters.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard form of a hyperbola: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, where the focal length is given by 2c, with c = \\sqrt{a^2 + b^2}.",
+      "Step 2 (Understand): Identify the parameters from the given equation: a^2 = m^2 + 12 and b^2 = 4 - m^2.",
+      "Step 3 (Apply): Compute c using the formula c = \\sqrt{a^2 + b^2} = \\sqrt{(m^2 + 12) + (4 - m^2)} = \\sqrt{16} = 4. The focal length is 2c = 8."
+    ],
+    "Final Answer": "8"
+  },
+  {
+    "Problem": "Given the function $f(x)=\\frac{{\\sin x}}{x}$. (Ⅰ) Find the equation of the tangent line to the curve $y=f(x)$ at $x=\\pi$. (Ⅱ) Find the minimum value of the function $f(x)$ when $x\\in (0,\\pi]$. (Ⅲ) Prove: $\\sin\\frac{1}{3}>\\frac{1}{\\pi}$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Differentiation -> Tangent Lines; Mathematics -> Calculus -> Optimization -> Minimum Value; Mathematics -> Trigonometry -> Inequalities",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for the tangent line and the derivative of $\\frac{\\sin x}{x}$. Understand: Explain the process of finding the tangent line and the minimum value. Apply: Apply differentiation to find the tangent line and the minimum value. Analyze: Break down the inequality $\\sin\\frac{1}{3}>\\frac{1}{\\pi}$ and prove it using calculus.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for the tangent line: $y = f(a) + f'(a)(x - a)$. Recall the derivative of $\\frac{\\sin x}{x}$: $f'(x) = \\frac{x \\cos x - \\sin x}{x^2}$.",
+      "Step 2 (Understand): Explain that to find the tangent line at $x = \\pi$, we need to compute $f(\\pi)$ and $f'(\\pi)$.",
+      "Step 3 (Apply): Compute $f(\\pi) = \\frac{\\sin \\pi}{\\pi} = 0$ and $f'(\\pi) = \\frac{\\pi \\cos \\pi - \\sin \\pi}{\\pi^2} = \\frac{-\\pi}{\\pi^2} = -\\frac{1}{\\pi}$. Thus, the tangent line is $y = -\\frac{1}{\\pi}(x - \\pi)$.",
+      "Step 4 (Analyze): To find the minimum value of $f(x)$ on $(0, \\pi]$, find the critical points by setting $f'(x) = 0$ and analyze the behavior of $f(x)$.",
+      "Step 5 (Evaluate): Solve $f'(x) = 0$ to find critical points and evaluate $f(x)$ at these points and at the endpoints to determine the minimum value.",
+      "Step 6 (Create): Prove the inequality $\\sin\\frac{1}{3}>\\frac{1}{\\pi}$ by analyzing the function $f(x) = \\frac{\\sin x}{x}$ and using calculus to show that $f(\\frac{1}{3}) > f(\\pi)$."
+    ],
+    "Final Answer": "(Ⅰ) $y = -\\frac{1}{\\pi}(x - \\pi)$; (Ⅱ) Minimum value of $f(x)$ is $\\frac{\\sin \\pi}{\\pi} = 0$; (Ⅲ) $\\sin\\frac{1}{3}>\\frac{1}{\\pi}$ is proven."
+  },
+  {
+    "Problem": "Let the function $f(x) = |x - 2a|$, $g(x) = |x + a|$, where $a \\in \\mathbb{R}$.\\n1. Let $a = 1$, if there exists $x$ such that $f(x) - g(x) \\geq m$ holds, find the range of $m$.\\n2. If $f(x) + g(x) \\geq 3$ always holds, find the range of $a$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Absolute Value Functions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the properties of absolute value functions. Understand: Explain the behavior of the functions $f(x)$ and $g(x)$. Apply: Use the given conditions to set up inequalities. Analyze: Break down the inequalities to find the range of $m$ and $a$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the absolute value function $|x - c|$ represents the distance between $x$ and $c$ on the real number line.",
+      "Step 2 (Understand): For $a = 1$, $f(x) = |x - 2|$ and $g(x) = |x + 1|$. Understand that $f(x) - g(x)$ represents the difference in distances from $x$ to $2$ and from $x$ to $-1$.",
+      "Step 3 (Apply): Set up the inequality $|x - 2| - |x + 1| \\geq m$. Analyze the possible cases for $x$ to find the maximum and minimum values of $f(x) - g(x)$.",
+      "Step 4 (Analyze): Determine the range of $m$ by finding the maximum and minimum values of $f(x) - g(x)$. For $a = 1$, the maximum value of $f(x) - g(x)$ is $3$ and the minimum is $-3$. Thus, $m$ must satisfy $m \\leq 3$.",
+      "Step 5 (Apply): For the second part, set up the inequality $|x - 2a| + |x + a| \\geq 3$. Analyze the behavior of the sum of absolute values to find the range of $a$.",
+      "Step 6 (Analyze): Determine the minimum value of $|x - 2a| + |x + a|$. The minimum occurs when $x$ is between $-a$ and $2a$, and the minimum value is $3|a|$. Thus, $3|a| \\geq 3$, which implies $|a| \\geq 1$. Therefore, $a \\leq -1$ or $a \\geq 1$."
+    ],
+    "Final Answer": "1. $m \\leq 3$; 2. $a \\leq -1$ or $a \\geq 1$"
+  },
+  {
+    "Problem": "Define $P_n$ as the probability of at least one success in a trial in $n$ independent trials, each with probability 0.24. Assume $P_0 = 0$, and conjecture a recursive relation for $P_n$. Prove it by induction.",
+    "Knowledge Point Hierarchy": "Mathematics -> Probability -> Recursive Probability -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall probability rules. Understand: Interpret recursive probability. Apply: Compute $P_1, P_2$ to find pattern. Analyze: Formulate recursive relation. Evaluate: Conjecture closed form or recurrence. Create: Prove by induction.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall $P($at least one$) = 1 - P($none$).",
+      "Step 2 (Understand): $P_n = 1 - (1 - 0.24)^n$.",
+      "Step 3 (Apply): $P_1 = {prob:.2f}$, $P_2 = 1 - (1 - {prob:.2f})^2$.",
+      "Step 4 (Analyze): Conjecture recurrence or closed form.",
+      "Step 5 (Evaluate): Test and refine conjecture.",
+      "Step 6 (Create): Prove by induction or direct computation."
+    ],
+    "Final Answer": "$P_n = 1 - (1 - 0.24)^n$ proven by induction."
+  },
+  {
+    "Problem": "Prove by mathematical induction that the number of ways to tile a $4 \\times n$ rectangle with $2 \\times 2$ tiles follows the geometric sequence.",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Tiling -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall combinatorial sequences. Understand: Model tiling problem. Apply: Test small cases. Analyze: Relate to recurrence. Evaluate: Form inductive hypothesis. Create: Prove tiling count.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall sequence definition.",
+      "Step 2 (Understand): Model $4 \\times n$ tiling.",
+      "Step 3 (Apply): Verify for $n=1, 2$.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Show $n=k+1$ follows.",
+      "Step 6 (Create): Conclude proof."
+    ],
+    "Final Answer": "Tiling count follows geometric sequence by induction."
+  },
+  {
+    "Problem": "Given $a \\gt 0$, $b \\gt 0$, and $a+b=4$. $(1)$ Prove that: $\\frac{1}{a}+\\frac{1}{b+1} \\geq \\frac{4}{5}$. $(2)$ Prove that: $\\frac{4}{ab}+\\frac{a}{b} \\geq \\frac{\\sqrt{5}+1}{2}.$",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Inequalities -> AM-GM Inequality",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the AM-GM inequality and its application. Understand: Explain the conditions and constraints given in the problem. Apply: Apply the AM-GM inequality to the given expressions. Analyze: Break down the inequalities to find the minimum values. Evaluate: Combine the results to form the required inequalities. Create: Construct the proofs for the given inequalities.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the AM-GM inequality, which states that for positive real numbers, the arithmetic mean is greater than or equal to the geometric mean.",
+      "Step 2 (Understand): Understand the constraints $a > 0$, $b > 0$, and $a + b = 4$. Recognize that $b = 4 - a$.",
+      "Step 3 (Apply): Apply the AM-GM inequality to the expression $\\frac{1}{a} + \\frac{1}{b+1}$.",
+      "Step 4 (Analyze): Analyze the expression $\\frac{1}{a} + \\frac{1}{b+1}$ to find its minimum value under the constraint $a + b = 4$.",
+      "Step 5 (Evaluate): Combine the results to prove that $\\frac{1}{a} + \\frac{1}{b+1} \\geq \\frac{4}{5}$.",
+      "Step 6 (Create): Construct the proof for the second inequality $\\frac{4}{ab} + \\frac{a}{b} \\geq \\frac{\\sqrt{5}+1}{2}$ using similar steps."
+    ],
+    "Final Answer": "Proofs for both inequalities are constructed as described."
+  },
+  {
+    "Problem": "Solve the equation $2x = 4$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $2x = 4$, divide both sides by 2.",
+      "Step 2 (Remember): Compute $x = 2 \\div 4 = 2$."
+    ],
+    "Final Answer": "2"
+  },
+  {
+    "Problem": "Let the function $f(x)= \\begin{cases} 1+\\log_{6}x, & x\\geqslant 4 \\\\ f(x^{2}), & x < 4 \\end{cases}$, then $f(3)+f(4)=$ ___ .",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Recursive Functions, Mathematics -> Logarithms",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of logarithmic functions and recursive function evaluation. Understand: Interpret the piecewise definition of $f(x)$ and understand how recursion works for $x < 4$. Apply: Evaluate $f(3)$ and $f(4)$ step-by-step using the given rules. Analyze: Combine results from both cases to compute $f(3) + f(4)$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of the function $f(x)$: $f(x) = 1 + \\log_6 x$ for $x \\geq 4$ and $f(x) = f(x^2)$ for $x < 4$.",
+      "Step 2 (Understand): For $f(4)$, since $4 \\geq 4$, directly apply the formula: $f(4) = 1 + \\log_6 4$.",
+      "Step 3 (Apply): For $f(3)$, since $3 < 4$, use the recursive rule: $f(3) = f(3^2) = f(9)$. Since $9 \\geq 4$, evaluate $f(9) = 1 + \\log_6 9$. Thus, $f(3) = 1 + \\log_6 9$.",
+      "Step 4 (Analyze): Add the results: $f(3) + f(4) = (1 + \\log_6 9) + (1 + \\log_6 4) = 2 + \\log_6 (9 \\cdot 4) = 2 + \\log_6 36 = 2 + 2 = 4$."
+    ],
+    "Final Answer": "4"
+  },
+  {
+    "Problem": "If the set M=\\{x| \\frac {1}{x} < 1\\}, then \\complement_{\\mathbb{R}}M equals to (　　) A: \\{x|x\\leq1\\} B: \\{x|0<x\\leq1\\} C: \\{x|0\\leq x\\leq1\\} D: \\{x|x<1\\}",
+    "Knowledge Point Hierarchy": "Mathematics -> Set Theory -> Complements -> Inequalities",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of complement and solve inequalities. Understand: Explain the inequality \\frac{1}{x} < 1 and its solution set. Apply: Find the complement of the solution set in the real numbers.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of complement: \\complement_{\\mathbb{R}}M consists of all real numbers not in M. Solve the inequality \\frac{1}{x} < 1.",
+      "Step 2 (Understand): Analyze the inequality \\frac{1}{x} < 1. Multiply through by x (considering cases for x > 0 and x < 0). For x > 0, this simplifies to x > 1. For x < 0, the inequality always holds. Thus, M = (-\\infty, 0) \\cup (1, \\infty).",
+      "Step 3 (Apply): The complement of M in \\mathbb{R} is \\complement_{\\mathbb{R}}M = [0, 1]. This corresponds to option C: \\{x | 0 \\leq x \\leq 1\\}."
+    ],
+    "Final Answer": "C"
+  },
+  {
+    "Problem": "The coordinates of the vertex of the parabola y=3\\left(x-7\\right)^{2}+5 are: A: (7,5) B: (7,-5) C: (-7,5) D: (-7,-5)",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Quadratic Functions -> Vertex Form",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the vertex form of a quadratic equation, y = a(x-h)^2 + k, where (h,k) is the vertex. Understand: Identify h and k from the given equation and state the vertex.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the vertex form of a quadratic equation is y = a(x-h)^2 + k, where (h,k) represents the vertex.",
+      "Step 2 (Understand): From the given equation y = 3(x-7)^2 + 5, identify h = 7 and k = 5. Thus, the vertex is (7,5)."
+    ],
+    "Final Answer": "A"
+  },
+  {
+    "Problem": "Given vectors $\\overrightarrow{a}=(\\sin \\alpha ,\\sin \\beta )$, $\\overrightarrow{b}=(\\cos (\\alpha -\\beta ),-1)$, and $\\overrightarrow{c}=(\\cos (\\alpha +\\beta ),2)$, where $\\alpha, \\beta \\neq k\\pi + \\frac{\\pi }{2}, k\\in \\mathbb{Z}$\n1. If $\\overrightarrow{b}$ is parallel to $\\overrightarrow{c}$, find the value of $\\tan \\alpha \\cdot \\tan \\beta$.\n2. Find the value of ${\\overrightarrow{a}}^{2}+\\overrightarrow{b}\\cdot \\overrightarrow{c}.$",
+    "Knowledge Point Hierarchy": "Mathematics -> Vectors -> Vector Operations -> Parallel Vectors, Dot Product",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the conditions for parallel vectors and the formula for the dot product. Understand: Explain the relationship between parallel vectors and their components. Apply: Use the conditions for parallel vectors to find $\\tan \\alpha \\cdot \\tan \\beta$ and compute the dot product and vector magnitude.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that two vectors are parallel if their components are proportional. Also, recall the formula for the dot product of two vectors.",
+      "Step 2 (Understand): For part 1, set up the proportionality condition for $\\overrightarrow{b}$ and $\\overrightarrow{c}$: $\\frac{\\cos(\\alpha - \\beta)}{\\cos(\\alpha + \\beta)} = \\frac{-1}{2}$. Solve for $\\tan \\alpha \\cdot \\tan \\beta$.",
+      "Step 3 (Apply): For part 2, compute $\\overrightarrow{a}^2 = \\sin^2 \\alpha + \\sin^2 \\beta$ and $\\overrightarrow{b} \\cdot \\overrightarrow{c} = \\cos(\\alpha - \\beta)\\cos(\\alpha + \\beta) + (-1)(2)$. Add these results to find the final value."
+    ],
+    "Final Answer": "1. $\\tan \\alpha \\cdot \\tan \\beta = -3$; 2. ${\\overrightarrow{a}}^{2}+\\overrightarrow{b}\\cdot \\overrightarrow{c} = \\sin^2 \\alpha + \\sin^2 \\beta + \\cos(\\alpha - \\beta)\\cos(\\alpha + \\beta) - 2$"
+  },
+  {
+    "Problem": "In the book 'Nine Chapters on the Mathematical Art,' there is a mathematical problem stated as follows: A group of people jointly buy sheep. If each person contributes $5$ coins, they will be short of $45$ coins; if each person contributes $7$ coins, they will be short of $3$ coins. How many people are in the group? To solve this problem, let the number of people in the group be $x$, and the equation can be written as ______.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations -> Word Problems",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the structure of linear equations. Understand: Interpret the problem statement to identify the relationship between contributions and shortages. Apply: Formulate the equation based on the given conditions.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard form of a linear equation: $ax + b = c$.",
+      "Step 2 (Understand): Interpret the problem: If each person contributes $5$ coins, the total is $5x$, and they are short of $45$ coins, so the cost is $5x + 45$. If each contributes $7$ coins, the total is $7x$, and they are short of $3$ coins, so the cost is $7x + 3$.",
+      "Step 3 (Apply): Set the two expressions for the cost equal to each other: $5x + 45 = 7x + 3$."
+    ],
+    "Final Answer": "$5x + 45 = 7x + 3$"
+  },
+  {
+    "Problem": "When China's first lunar probe \\text{\\textquotedbl}Chang'e 1\\text{\\textquotedbl} sent back the first lunar surface photo from its orbit around the moon, it was 380,000 kilometers away from Earth. Which of the following options correctly represents 380,000 kilometers in scientific notation? A: $38\\times10^4$ B: $3.8\\times10^5$ C: $0.38\\times10^6$ D: $3.8\\times10^4$",
+    "Knowledge Point Hierarchy": "Mathematics -> Numbers and Operations -> Scientific Notation",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of scientific notation. Understand: Explain how to convert a number into scientific notation by identifying the correct power of ten.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that scientific notation expresses numbers as $a \\times 10^n$, where $1 \\leq |a| < 10$. Identify the given number as 380,000.",
+      "Step 2 (Understand): Convert 380,000 into scientific notation by moving the decimal point 5 places to the left, resulting in $3.8 \\times 10^5$. Match this with the provided options."
+    ],
+    "Final Answer": "B: $3.8 \\times 10^5$"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 3 and width 7.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 3 $\\times$ 7 = 3."
+    ],
+    "Final Answer": "21"
+  },
+  {
+    "Problem": "Solve the equation $5x = 18$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $5x = 18$, divide both sides by 5.",
+      "Step 2 (Remember): Compute $x = 5 \\div 18 = 5$."
+    ],
+    "Final Answer": "None"
+  },
+  {
+    "Problem": "Among the following four conditions, the one that is a sufficient but not necessary condition for $a > b$ is ( )\nA: $a > b + 1$\nB: $a > b - 1$\nC: $a^2 > b^2$\nD: $a^3 > b^3$",
+    "Knowledge Point Hierarchy": "Mathematics -> Logic -> Sufficient and Necessary Conditions",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of sufficient and necessary conditions. Understand: Explain the difference between sufficient and necessary conditions. Apply: Apply the definitions to evaluate each condition in the context of $a > b$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a sufficient condition guarantees the truth of a statement, but is not required for the statement to be true. A necessary condition is required for the statement to be true, but does not guarantee it.",
+      "Step 2 (Understand): Explain that for $a > b$, a sufficient but not necessary condition is one that ensures $a > b$ but is not required for $a > b$ to hold.",
+      "Step 3 (Apply): Evaluate each option: A: $a > b + 1$ ensures $a > b$ but is not required (sufficient but not necessary). B: $a > b - 1$ does not ensure $a > b$. C: $a^2 > b^2$ does not ensure $a > b$. D: $a^3 > b^3$ ensures $a > b$ but is not required (sufficient but not necessary). Compare A and D to determine which is sufficient but not necessary."
+    ],
+    "Final Answer": "A"
+  },
+  {
+    "Problem": "Prove by mathematical induction that the number of ways to tile a $3 \\times n$ rectangle with $1 \\times 1$ tiles follows the geometric sequence.",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Tiling -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall combinatorial sequences. Understand: Model tiling problem. Apply: Test small cases. Analyze: Relate to recurrence. Evaluate: Form inductive hypothesis. Create: Prove tiling count.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall sequence definition.",
+      "Step 2 (Understand): Model $3 \\times n$ tiling.",
+      "Step 3 (Apply): Verify for $n=1, 2$.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Show $n=k+1$ follows.",
+      "Step 6 (Create): Conclude proof."
+    ],
+    "Final Answer": "Tiling count follows geometric sequence by induction."
+  },
+  {
+    "Problem": "Using the six digits 0, 1, 2, 3, 4, 5,\\n(1) How many distinct three-digit numbers can be formed?\\n(2) How many distinct three-digit odd numbers can be formed?",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Permutations and Arrangements",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the rules for forming numbers and permutations. Understand: Identify the restrictions for three-digit numbers and odd numbers. Apply: Apply combinatorial methods to count valid arrangements. Analyze: Break down the problem into cases and compute the total possibilities.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a three-digit number cannot start with 0. Also, an odd number must end with an odd digit.",
+      "Step 2 (Understand): For part (1), the first digit has 5 choices (1, 2, 3, 4, 5), the second digit has 5 remaining choices (including 0), and the third digit has 4 remaining choices. Total = 5 \\cdot 5 \\cdot 4 = 100.",
+      "Step 3 (Apply): For part (2), the last digit must be odd (1, 3, 5). Fix one of these as the last digit, leaving 5 choices for the first digit and 4 for the second. Total = 3 \\cdot 4 \\cdot 4 = 48.",
+      "Step 4 (Analyze): Verify the calculations and ensure no overcounting or missing cases."
+    ],
+    "Final Answer": "[100, 48]"
+  },
+  {
+    "Problem": "Given $|\\vec{a}|=4$, $|\\vec{b}|=8$, and the angle between $\\vec{a}$ and $\\vec{b}$ is $120^\\circ$, find the magnitude of $2\\vec{a} - \\vec{b}$. A: $8\\sqrt{3}$ B: $6\\sqrt{3}$ C: $5\\sqrt{3}$ D: $8\\sqrt{2}$",
+    "Knowledge Point Hierarchy": "Mathematics -> Vector Algebra -> Magnitude and Angle Between Vectors",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for the magnitude of a vector sum or difference. Understand: Interpret the given magnitudes and angle between vectors. Apply: Use the cosine rule to compute the magnitude of the resultant vector. Analyze: Break down the problem into manageable parts: compute dot products, apply trigonometric identities, and simplify expressions.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for the magnitude of a vector: \\(|\\vec{v}| = \\sqrt{v_x^2 + v_y^2}\\). For the difference of two vectors, use the cosine rule: \\(|2\\vec{a} - \\vec{b}| = \\sqrt{|2\\vec{a}|^2 + |\\vec{b}|^2 - 2|2\\vec{a}||\\vec{b}|\\cos\\theta}\\).",
+      "Step 2 (Understand): Substitute the given values: \\(|\\vec{a}| = 4\\), \\(|\\vec{b}| = 8\\), and \\(\\theta = 120^\\circ\\). Compute \\(|2\\vec{a}| = 2|\\vec{a}| = 8\\).",
+      "Step 3 (Apply): Apply the cosine rule: \\(|2\\vec{a} - \\vec{b}| = \\sqrt{8^2 + 8^2 - 2(8)(8)\\cos 120^\\circ}\\). Since \\(\\cos 120^\\circ = -\\frac{1}{2}\\), this becomes \\(|2\\vec{a} - \\vec{b}| = \\sqrt{64 + 64 + 64} = \\sqrt{192} = 8\\sqrt{3}\\).",
+      "Step 4 (Analyze): Verify the correctness of the computation by checking all intermediate steps and ensuring consistency with the given data."
+    ],
+    "Final Answer": "8\\sqrt{3}"
+  },
+  {
+    "Problem": "For the interval \\left[a,b\\right], where a \\lt b, if the function y=f\\left(x\\right) simultaneously satisfies: ① f\\left(x\\right) is a monotonic function on \\left[a,b\\right]; ② the range of the function y=f\\left(x\\right) for x\\in \\left[a,b\\right] is \\left[a,b\\right], then the interval \\left[a,b\\right] is called the \\\"value-preserving\\\" interval of the function f\\left(x\\right).\\n(1) Find all \\\"value-preserving\\\" intervals of the function y=2x^{2};\\n(2) Does the function y=x^{2}-2x+m\\left(m\\in R\\right) have a \\\"value-preserving\\\" interval? If it exists, find the range of m; if it does not exist, explain the reason.",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Monotonicity -> Range Analysis",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of monotonic functions and their ranges. Understand: Explain the conditions for a 'value-preserving' interval. Apply: Apply these conditions to specific functions. Analyze: Break down the problem into cases and analyze the behavior of each function under given constraints.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a 'value-preserving' interval requires the function to be monotonic and its range to match the domain [a, b].",
+      "Step 2 (Understand): For y = 2x^2, determine the monotonicity and range over possible intervals [a, b]. The function is increasing for x >= 0 and decreasing for x <= 0.",
+      "Step 3 (Apply): Solve for [a, b] such that the range matches [a, b]. Assume a >= 0 (since y = 2x^2 is non-negative). Then, f(a) = a and f(b) = b yield a quadratic equation 2x^2 = x, leading to solutions x = 0 or x = 1/2. Thus, [a, b] = [0, 1/2].",
+      "Step 4 (Analyze): For y = x^2 - 2x + m, analyze monotonicity and range. Rewrite as y = (x-1)^2 + (m-1). The vertex is at x = 1, so the function is decreasing for x < 1 and increasing for x > 1. To satisfy the 'value-preserving' condition, [a, b] must include the vertex and ensure the range matches [a, b]. This imposes constraints on m, specifically m >= 1."
+    ],
+    "Final Answer": "(1) [0, 1/2]; (2) m >= 1"
+  },
+  {
+    "Problem": "Given an ellipse $\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$ ($a>0$, $b>0$) with its left focus $F$ and right vertex $A$, upper vertex $B$. If the distance from point $F$ to line $AB$ is $\\frac{5\\sqrt{14}}{14}b$, find the eccentricity of the ellipse.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conic Sections -> Ellipses",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the standard equation of an ellipse and the formulas for its foci and vertices. Understand: Explain the relationship between the ellipse's parameters and the given distance. Apply: Use the distance formula to set up an equation involving the ellipse's parameters. Analyze: Break down the problem to solve for the eccentricity using the given distance.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard equation of an ellipse $\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$ and the coordinates of its foci $F(-c, 0)$ and vertices $A(a, 0)$, $B(0, b)$, where $c = \\sqrt{a^2 - b^2}$.",
+      "Step 2 (Understand): Understand that the distance from point $F(-c, 0)$ to line $AB$ is given as $\\frac{5\\sqrt{14}}{14}b$. Line $AB$ can be determined using points $A(a, 0)$ and $B(0, b)$.",
+      "Step 3 (Apply): Find the equation of line $AB$ using the two-point form: $\\frac{x}{a} + \\frac{y}{b} = 1$. Use the distance formula from point $F(-c, 0)$ to line $AB$ to set up the equation: $\\frac{|\\frac{-c}{a} + \\frac{0}{b} - 1|}{\\sqrt{\\left(\\frac{1}{a}\\right)^2 + \\left(\\frac{1}{b}\\right)^2}} = \\frac{5\\sqrt{14}}{14}b$.",
+      "Step 4 (Analyze): Simplify the distance equation to solve for $c$ in terms of $a$ and $b$. Use the relationship $c = \\sqrt{a^2 - b^2}$ to find the eccentricity $e = \\frac{c}{a}$."
+    ],
+    "Final Answer": "\\frac{\\sqrt{5}}{3}"
+  },
+  {
+    "Problem": "Consider $f(x) = \\sin(x)$. Define $g_n(x)$ recursively as $g_0(x) = f(x)$, $g_{n+1}(x) = 1x g_n'(x)$, where $g_n'(x)$ is the derivative of $g_n(x)$. Conjecture a formula for $g_n(x)$ and prove it by induction.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Derivatives -> Recursive Functions -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall derivative of base function. Understand: Grasp recursive definition. Apply: Compute initial terms. Analyze: Identify pattern. Evaluate: Formulate conjecture. Create: Prove via induction.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall derivative of $f(x) = \\sin(x)$.",
+      "Step 2 (Understand): Compute $g_1(x) = x f'(x)$.",
+      "Step 3 (Apply): Calculate $g_2(x)$ to spot pattern.",
+      "Step 4 (Analyze): Conjecture general form based on terms.",
+      "Step 5 (Evaluate): Formulate $g_n(x)$ explicitly.",
+      "Step 6 (Create): Prove by induction: base case and inductive step."
+    ],
+    "Final Answer": "Conjectured formula proven by induction."
+  },
+  {
+    "Problem": "Solve the equation $2x = 10$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $2x = 10$, divide both sides by 2.",
+      "Step 2 (Remember): Compute $x = 2 \\div 10 = 2$."
+    ],
+    "Final Answer": "5"
+  },
+  {
+    "Problem": "Definition: If a number $p$ can be expressed as $p=x^{2}+y^{2}-xy$ (where $x$ and $y$ are positive integers), then $p$ is called a \"Hilbert\" number. For example, $39=7^{2}+5^{2}-7\\times 5$, $147=13^{2}+11^{2}-13\\times 11$, etc. Therefore, $39$ and $147$ are \"Hilbert\" numbers. \\n$(1)$ The rational number $1$ is ______ a \"Hilbert\" number (fill in \"is\" or \"is not\"); \\n$(2)$ Numbers like $39$ and $147$ that can be expressed as the operation defined by two consecutive odd numbers are also called \"$H$ Hilbert\" numbers. \\n① Let the smaller of the two consecutive odd numbers be $2n-1$ (where $n$ is a positive integer), express the \"$H$ Hilbert\" number in terms of $n$ as ______; \\n② Given that the difference between two \"$H$ Hilbert\" numbers is $48$, then the larger of these two \"$H$ Hilbert\" numbers is ______.",
+    "Knowledge Point Hierarchy": "Mathematics -> Number Theory -> Special Number Types",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of a \"Hilbert\" number. Understand: Analyze the structure of the expression $x^2 + y^2 - xy$. Apply: Test whether specific numbers satisfy the condition. Analyze: Break down the problem into cases involving consecutive odd numbers. Evaluate: Generalize the form of \"$H$ Hilbert\" numbers. Create: Invent a solution strategy for finding differences between such numbers.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of a \"Hilbert\" number: $p = x^2 + y^2 - xy$, where $x$ and $y$ are positive integers.",
+      "Step 2 (Understand): Test if $1$ can be written in this form. Assume $x = 1$ and $y = 1$: $1^2 + 1^2 - 1 \\cdot 1 = 1$. Thus, $1$ is a \"Hilbert\" number.",
+      "Step 3 (Apply): For \"$H$ Hilbert\" numbers, let $x = 2n-1$ and $y = 2n+1$. Substitute into the formula: $p = (2n-1)^2 + (2n+1)^2 - (2n-1)(2n+1)$. Expand: $p = 4n^2 - 4n + 1 + 4n^2 + 4n + 1 - (4n^2 - 1) = 4n^2 + 3$.",
+      "Step 4 (Analyze): Let the difference between two \"$H$ Hilbert\" numbers be $48$. Write the difference: $(4m^2 + 3) - (4n^2 + 3) = 48$. Simplify: $4(m^2 - n^2) = 48$, so $m^2 - n^2 = 12$. Factorize: $(m-n)(m+n) = 12$. Solve for integer pairs: $m-n = 2$, $m+n = 6$. Add: $2m = 8$, so $m = 4$. Subtract: $2n = 4$, so $n = 2$. Compute the larger number: $4m^2 + 3 = 4(4^2) + 3 = 67$.",
+      "Step 5 (Evaluate): Generalize the form of \"$H$ Hilbert\" numbers as $4n^2 + 3$.",
+      "Step 6 (Create): Invent a proof strategy for verifying the results using modular arithmetic or direct substitution."
+    ],
+    "Final Answer": "(1) is, (2)① $4n^2 + 3$, (2)② $67$"
+  },
+  {
+    "Problem": "Prove by mathematical induction that an $n$-sided polygon (for $n \\ge 5$) can be dissected into 3 triangles as $n$ increases.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Polygon Dissection -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall polygon dissection rules. Understand: Model dissection process. Apply: Test small polygons. Analyze: Relate dissections to $n$. Evaluate: Form inductive hypothesis. Create: Prove dissection count.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall triangulation or quadrilateralization rules.",
+      "Step 2 (Understand): Model an $5$-sided polygon.",
+      "Step 3 (Apply): Verify for $n=5$.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Add a vertex for $n=k+1$, adjust dissection.",
+      "Step 6 (Create): Prove by induction."
+    ],
+    "Final Answer": "An $n$-sided polygon can be dissected into 3 triangles for $n \\ge 5$."
+  },
+  {
+    "Problem": "The focal length of the ellipse \\dfrac {x^{2}}{5}+ \\dfrac {y^{2}}{4}=1 is $(\\ \\ \\ )$",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conic Sections -> Ellipses",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the standard form of an ellipse and the formula for its focal length. Understand: Explain how to identify the semi-major and semi-minor axes and apply the formula for focal length.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard form of an ellipse: \\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1, where a > b. The focal length is given by 2c, where c = \\sqrt{a^2 - b^2}.",
+      "Step 2 (Understand): Identify a^2 = 5 and b^2 = 4 from the given equation. Compute c = \\sqrt{5 - 4} = \\sqrt{1} = 1. The focal length is 2c = 2."
+    ],
+    "Final Answer": "2"
+  },
+  {
+    "Problem": "Employees Xiao Wang and Xiao Chen work in the same office. One day, they need to attend a seminar on the development of the western region at the company's headquarters at 2 PM. Xiao Chen leaves the office at 1 PM, takes a taxi, and arrives at the company's headquarters at 1:50 PM, ahead of schedule. Xiao Wang, busy collecting materials, leaves at 1:25 PM. To save time, he takes a shortcut. Although the distance is 10 kilometers shorter than the route Xiao Chen took, due to the road conditions, the taxi's average speed is 6 kilometers per hour slower than the taxi Xiao Chen took, resulting in Xiao Wang being 5 minutes late. Let the average speed of the taxi Xiao Chen took be $x$ kilometers per hour, and the distance from the office to the company's headquarters be $y$ kilometers. Then, the correct option is (　　)\nA: $x=30$, $y=36$\nB: $x=3$, $y=36$\nC: $x=36$, $y=30$\nD: $x=3.6$, $y=30$",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Word Problems -> Rate, Time, Distance",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for distance, speed, and time. Understand: Interpret the problem to set up equations. Apply: Use the given information to solve for the unknowns.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Distance = Speed \\times Time.",
+      "Step 2 (Understand): For Xiao Chen: $y = x \\times \\frac{50}{60}$ (since he took 50 minutes). For Xiao Wang: $y - 10 = (x - 6) \\times \\frac{35}{60}$ (since he took 35 minutes but was 5 minutes late).",
+      "Step 3 (Apply): Solve the two equations: $y = \\frac{5}{6}x$ and $y - 10 = \\frac{7}{12}(x - 6)$. Substitute $y$ from the first equation into the second: $\\frac{5}{6}x - 10 = \\frac{7}{12}(x - 6)$. Solve for $x$ and then for $y$."
+    ],
+    "Final Answer": "C: $x=36$, $y=30$"
+  },
+  {
+    "Problem": "Let $f(x)$ be a function defined on the domain $\\mathbb{R}$ such that $f(1) = 1$ and its derivative $f'(x) > \\frac{1}{2}$. Determine the set of $x$ that satisfies $2f(x) < x + 1$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Differential Equations -> Inequalities",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of a derivative and its implications. Understand: Interpret the inequality $f'(x) > \\frac{1}{2}$ as a rate of growth. Apply: Use the Mean Value Theorem to relate $f(x)$ to its derivative. Analyze: Break down the inequality $2f(x) < x + 1$ to find the set of $x$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that $f'(x) > \\frac{1}{2}$ implies $f(x)$ grows faster than $\\frac{1}{2}x + C$.",
+      "Step 2 (Understand): Understand that $f(1) = 1$ provides a specific point on the function.",
+      "Step 3 (Apply): Apply the Mean Value Theorem to estimate $f(x)$ for $x > 1$ and $x < 1$.",
+      "Step 4 (Analyze): Solve the inequality $2f(x) < x + 1$ by considering the growth rate of $f(x)$ and the initial condition."
+    ],
+    "Final Answer": "$x < 1$"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 4 and width 4.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 4 $\\times$ 4 = 4."
+    ],
+    "Final Answer": "16"
+  },
+  {
+    "Problem": "Let \\(\\triangle ABC\\) have internal angles \\(A\\), \\(B\\), \\(C\\) opposite to sides \\(a\\), \\(b\\), \\(c\\) respectively. It is known that \\(\\dfrac{a+b}{\\sin(A+B)} = \\dfrac{a-c}{\\sin A - \\sin B}\\). (Ⅰ) Find angle \\(B\\). (Ⅱ) If \\(b=3\\) and \\(\\cos A = \\dfrac{\\sqrt{6}}{3}\\), find the area of \\(\\triangle ABC\\).",
+    "Knowledge Point Hierarchy": "Mathematics -> Trigonometry -> Triangles -> Law of Sines and Cosines",
+    "Bloom’s cognitive level": 5,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall trigonometric identities and laws. Understand: Apply the given equation to relate angles and sides. Apply: Solve for angle \\(B\\) using the given equation. Analyze: Break down the problem into smaller components. Evaluate: Combine results to compute the area of the triangle.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the law of sines and basic trigonometric identities.",
+      "Step 2 (Understand): Simplify the given equation \\(\\dfrac{a+b}{\\sin(A+B)} = \\dfrac{a-c}{\\sin A - \\sin B}\\). Use \\(A + B = 180° - C\\) to simplify \\(\\sin(A+B)\\).",
+      "Step 3 (Apply): Solve for \\(B\\) by substituting known values and simplifying the equation.",
+      "Step 4 (Analyze): Use the given \\(b = 3\\) and \\(\\cos A = \\dfrac{\\sqrt{6}}{3}\\) to find other necessary parameters such as \\(\\sin A\\) and \\(\\sin B\\).",
+      "Step 5 (Evaluate): Compute the area of the triangle using the formula \\(\\text{Area} = \\frac{1}{2}ab\\sin C\\)."
+    ],
+    "Final Answer": "(Ⅰ) \\(B = 45°\\), (Ⅱ) Area = \\(\\frac{9\\sqrt{3}}{4}\\)"
+  },
+  {
+    "Problem": "I have a ribbon tape that is 28 meters (m) long. If you cut this ribbon tape to make ribbons, each of which are 1.12 meter (m) long, how many ribbons can you make?",
+    "Knowledge Point Hierarchy": "Mathematics -> Arithmetic -> Division",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the concept of division. Understand: Explain the relationship between total length and individual ribbon length. Apply: Use division to calculate the number of ribbons.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that division is used to determine how many parts of a certain size can be made from a whole.",
+      "Step 2 (Understand): Understand that the total length of the ribbon tape (28 m) needs to be divided by the length of each ribbon (1.12 m) to find the number of ribbons.",
+      "Step 3 (Apply): Perform the division: 28 ÷ 1.12 = 25."
+    ],
+    "Final Answer": "25"
+  },
+  {
+    "Problem": "Throw two uneven dice, and denote the event \"the sum of the numbers on the two dice is 8\" as event \\(A\\), and \"the number on the smaller die is less than the number on the larger die\" as event \\(B\\). Then \\(P(A|B)\\) and \\(P(B|A)\\) are respectively ( ).\nA: \\(\\boxed{\\dfrac {2}{15}, \\dfrac {2}{5}}\\)\nB: \\(\\dfrac {3}{14}, \\dfrac {3}{5}\\)\nC: \\(\\dfrac {1}{3}, \\dfrac {1}{5}\\)\nD: \\(\\dfrac {4}{5}, \\dfrac {4}{15}\\)",
+    "Knowledge Point Hierarchy": "Mathematics -> Probability -> Conditional Probability",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of conditional probability and the rules for calculating probabilities of events. Understand: Explain the relationship between events A and B. Apply: Use the definitions and rules to calculate the conditional probabilities P(A|B) and P(B|A).",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for conditional probability: \\(P(A|B) = \\frac{P(A \\cap B)}{P(B)}\\) and \\(P(B|A) = \\frac{P(A \\cap B)}{P(A)}\\).",
+      "Step 2 (Understand): Identify the events A and B. Event A is the sum of the numbers on the two dice being 8. Event B is the number on the smaller die being less than the number on the larger die.",
+      "Step 3 (Apply): Calculate the probabilities P(A), P(B), and P(A ∩ B). Use these probabilities to compute P(A|B) and P(B|A)."
+    ],
+    "Final Answer": "A: \\(\\boxed{\\dfrac {2}{15}, \\dfrac {2}{5}}\\)"
+  },
+  {
+    "Problem": "The function $f(x)$ is a decreasing function defined on the interval $(0,4)$, and $f(a^2-a) > f(2)$. Determine the range of values for $a$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Monotonicity",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of a decreasing function. Understand: Interpret the inequality $f(a^2-a) > f(2)$ in the context of a decreasing function. Apply: Apply the property of decreasing functions to solve the inequality.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a decreasing function satisfies $f(x_1) > f(x_2)$ if $x_1 < x_2$.",
+      "Step 2 (Understand): Interpret the inequality $f(a^2-a) > f(2)$ as $a^2 - a < 2$ because $f$ is decreasing.",
+      "Step 3 (Apply): Solve the inequality $a^2 - a < 2$ to find the range of $a$. Rewrite as $a^2 - a - 2 < 0$. Factor to $(a-2)(a+1) < 0$. Determine the solution interval $-1 < a < 2$."
+    ],
+    "Final Answer": "$-1 < a < 2$"
+  },
+  {
+    "Problem": "Find the constant term in the expansion of \\(2x+\\frac{1}{x}\\)^6.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Binomial Theorem",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the binomial expansion formula. Understand: Explain the structure of the expansion. Apply: Apply the binomial theorem to find the constant term.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the binomial expansion formula: \\((a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k\\).",
+      "Step 2 (Understand): Identify \\(a = 2x\\), \\(b = \\frac{1}{x}\\), and \\(n = 6\\). Understand that the general term in the expansion is \\(\\binom{6}{k} (2x)^{6-k} \\left(\\frac{1}{x}\\right)^k\\).",
+      "Step 3 (Apply): Simplify the general term to \\(\\binom{6}{k} 2^{6-k} x^{6-k} x^{-k} = \\binom{6}{k} 2^{6-k} x^{6-2k}\\). Find the value of \\(k\\) that makes the exponent of \\(x\\) zero: \\(6 - 2k = 0\\), so \\(k = 3\\). Compute the constant term: \\(\\binom{6}{3} 2^{3} = 20 \\times 8 = 160\\)."
+    ],
+    "Final Answer": "160"
+  },
+  {
+    "Problem": "Given the universal set $I=\\{1,2,3,4,5,6\\}$, set $A=\\{1,3,5\\}$, and $B=\\{2,3,6\\}$, then $(\\complement_{I}A)\\cap B=$ ______.",
+    "Knowledge Point Hierarchy": "Mathematics -> Set Theory -> Complement and Intersection",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of complement and intersection. Understand: Explain the operations involved. Apply: Apply the complement and intersection operations to the given sets.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the complement of set $A$ with respect to universal set $I$ is $\\complement_{I}A = I \\setminus A$.",
+      "Step 2 (Understand): Explain that $\\complement_{I}A$ includes all elements in $I$ that are not in $A$.",
+      "Step 3 (Apply): Compute $\\complement_{I}A = \\{2,4,6\\}$. Then, find the intersection of $\\complement_{I}A$ and $B$: $\\{2,4,6\\} \\cap \\{2,3,6\\} = \\{2,6\\}$."
+    ],
+    "Final Answer": "\\{2,6\\}"
+  },
+  {
+    "Problem": "An example that can prove the proposition 'if $a \\gt b$, then $a^{2} \\gt b^{2}$' is false is ( )",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Inequalities",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the proposition and identify cases where it may fail. Understand: Explain why the proposition does not hold when $a$ or $b$ is negative.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the proposition: 'If $a > b$, then $a^2 > b^2$.' Identify cases where this might fail, particularly when $a$ or $b$ is negative.",
+      "Step 2 (Understand): Test each option. For $a = -1$ and $b = -2$, we have $a > b$ because $-1 > -2$. However, $a^2 = (-1)^2 = 1$ and $b^2 = (-2)^2 = 4$, so $a^2 < b^2$. This disproves the proposition."
+    ],
+    "Final Answer": "D: $a=-1$, $b=-2$"
+  },
+  {
+    "Problem": "Define a new operation: $a\\otimes b=b^{2}-ab$. For example, $1\\otimes 2=2^{2}-1\\times 2=2$. Find $\\left(-1\\otimes 2\\right)\\otimes 3$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Operations and Functions -> Custom Operations",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of the custom operation. Understand: Explain how the operation works. Apply: Apply the operation step by step to solve the problem.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of the operation $a\\otimes b = b^2 - ab$.",
+      "Step 2 (Understand): Understand that the operation takes two numbers and returns the square of the second number minus the product of the two numbers.",
+      "Step 3 (Apply): First, compute $-1\\otimes 2$ using the operation: $2^2 - (-1) \\times 2 = 4 + 2 = 6$. Then, compute $6\\otimes 3$: $3^2 - 6 \\times 3 = 9 - 18 = -9$."
+    ],
+    "Final Answer": "-9"
+  },
+  {
+    "Problem": "In a sequence $\\{a_n\\}$ where each term is positive, the sum of the first $n$ terms is $S_n$, satisfying $S_n = 1 - n a_n$ ($n \\in \\mathbb{N}^*$) (1) Find the values of $a_1$, $a_2$, $a_3$; (2) Based on (1), conjecture the general formula for the sequence $\\{a_n\\}$ and prove your conjecture using mathematical induction.",
+    "Knowledge Point Hierarchy": "Mathematics -> Sequences and Series -> Recursive Relations -> Induction Proofs",
+    "Bloom’s cognitive level": 5,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of sequences and summation notation. Understand: Interpret the recursive relation $S_n = 1 - n a_n$. Apply: Compute specific terms $a_1$, $a_2$, $a_3$. Analyze: Identify a pattern in the computed terms and conjecture a general formula. Evaluate: Prove the conjectured formula using mathematical induction.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of $S_n$ as the sum of the first $n$ terms of the sequence $\\{a_n\\}$, and the given relation $S_n = 1 - n a_n$.",
+      "Step 2 (Understand): Express $a_n$ in terms of $S_n$: $a_n = S_n - S_{n-1}$. Substitute $S_n = 1 - n a_n$ into this equation to derive a recursive formula for $a_n$.",
+      "Step 3 (Apply): Compute $a_1$, $a_2$, and $a_3$: For $n = 1$, $S_1 = 1 - 1 \\cdot a_1$, so $a_1 = \\frac{1}{2}$. For $n = 2$, $S_2 = 1 - 2 a_2$, and $S_2 = a_1 + a_2$, leading to $a_2 = \\frac{1}{6}$. Similarly, $a_3 = \\frac{1}{12}$.",
+      "Step 4 (Analyze): Observe the pattern: $a_1 = \\frac{1}{1 \\cdot 2}$, $a_2 = \\frac{1}{2 \\cdot 3}$, $a_3 = \\frac{1}{3 \\cdot 4}$. Conjecture that $a_n = \\frac{1}{n(n+1)}$.",
+      "Step 5 (Evaluate): Prove by induction. Base case: For $n = 1$, $a_1 = \\frac{1}{1 \\cdot 2} = \\frac{1}{2}$, which holds. Inductive step: Assume $a_k = \\frac{1}{k(k+1)}$ holds for some $k$. Show $a_{k+1} = \\frac{1}{(k+1)(k+2)}$. Using $S_{k+1} = 1 - (k+1)a_{k+1}$ and $S_{k+1} = S_k + a_{k+1}$, solve for $a_{k+1}$ and verify the formula."
+    ],
+    "Final Answer": "$a_n = \\frac{1}{n(n+1)}$"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 10 and width 8.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 10 $\\times$ 8 = 10."
+    ],
+    "Final Answer": "80"
+  },
+  {
+    "Problem": "Given that the midpoint of the line segment \\(AB\\) is \\((1, \\frac{1}{2})\\), find the equation of line \\(l\\) that intersects the ellipse \\(\\frac{x^2}{2} + y^2 = 1\\) at points \\(A\\) and \\(B\\).",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Midpoint Formula, Mathematics -> Geometry -> Conic Sections -> Ellipses",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the midpoint formula and the standard equation of an ellipse. Understand: Explain the relationship between the midpoint and the line intersecting the ellipse. Apply: Use the midpoint formula to find the equation of the line. Analyze: Break down the problem to find the slope and intercept of the line that intersects the ellipse at two points with a given midpoint.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the midpoint formula: \\((\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})\\). Recall the standard equation of an ellipse: \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\).",
+      "Step 2 (Understand): Understand that the line \\(l\\) intersects the ellipse at points \\(A\\) and \\(B\\), and the midpoint of \\(AB\\) is \\((1, \\frac{1}{2})\\).",
+      "Step 3 (Apply): Use the midpoint formula to set up equations for \\(x_1 + x_2\\) and \\(y_1 + y_2\\).",
+      "Step 4 (Analyze): Assume the line \\(l\\) has the form \\(y = mx + c\\). Substitute into the ellipse equation to find the points of intersection. Use the midpoint condition to solve for \\(m\\) and \\(c\\)."
+    ],
+    "Final Answer": "The equation of line \\(l\\) is \\(y = -\\frac{1}{2}x + 1\\)."
+  },
+  {
+    "Problem": "Choose any two non-adjacent numbers from $1, 2, \\cdots, 10$ and multiply them. The sum of all such products is $\\qquad$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Summation of Products",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the concept of combinations and summation formulas. Understand: Understand how to compute the sum of products of pairs of numbers. Apply: Apply combinatorial methods to calculate the required sum.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for the sum of the first $n$ integers: $S_n = \\frac{n(n+1)}{2}$, and the sum of squares: $T_n = \\frac{n(n+1)(2n+1)}{6}.$",
+      "Step 2 (Understand): Identify the set of numbers as $1, 2, \\ldots, 10$. Compute the total sum of all pairwise products using the identity $\\sum_{i < j} i \\cdot j = \\frac{1}{2} \\left(\\left(\\sum_{k=1}^{n} k\\right)^2 - \\sum_{k=1}^{n} k^2\\right).$",
+      "Step 3 (Apply): Calculate $\\sum_{k=1}^{10} k = 55$ and $\\sum_{k=1}^{10} k^2 = 385$. Substitute into the formula: $\\sum_{i < j} i \\cdot j = \\frac{1}{2} \\left(55^2 - 385\\right) = \\frac{1}{2} \\left(3025 - 385\\right) = \\frac{1}{2} \\cdot 2640 = 1320.$"
+    ],
+    "Final Answer": "1320"
+  },
+  {
+    "Problem": "Given the sets $M=\\{x|x^2+x-6=0\\}$ and $N=\\{x|ax+2=0, a\\in\\mathbb{R}\\}$, with $N\\subseteq M$, determine the set of possible values for $a$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Sets and Equations -> Subsets and Solutions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall how to solve quadratic and linear equations. Understand: Explain the relationship between sets M and N. Apply: Solve the equations to find the elements of M and N. Analyze: Break down the subset condition to determine the possible values of a.",
+    "Solution steps": [
+      "Step 1 (Remember): Solve the quadratic equation $x^2 + x - 6 = 0$ to find the elements of set M. The solutions are $x = 2$ and $x = -3$.",
+      "Step 2 (Understand): Explain that set N is defined by the linear equation $ax + 2 = 0$, which has a single solution $x = -\\frac{2}{a}$.",
+      "Step 3 (Apply): Since $N \\subseteq M$, the solution of N must be an element of M. Therefore, $x = -\\frac{2}{a}$ must be either 2 or -3.",
+      "Step 4 (Analyze): Solve for a in both cases: If $x = 2$, then $2 = -\\frac{2}{a}$, so $a = -1$. If $x = -3$, then $-3 = -\\frac{2}{a}$, so $a = \\frac{2}{3}$."
+    ],
+    "Final Answer": "\\{-1, \\frac{2}{3}\\}"
+  },
+  {
+    "Problem": "\"10\\^a > 10\\^b\" is a ( ) condition for \"lga > lgb\". A: Sufficient but not necessary B: Necessary but not sufficient C: Necessary and sufficient D: Neither sufficient nor necessary",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Logarithms and Exponents -> Logical Conditions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the properties of logarithmic and exponential functions. Understand: Explain the relationship between inequalities involving exponents and logarithms. Apply: Apply the rules of logarithms and exponents to analyze the given conditions. Analyze: Compare the sufficiency and necessity of the two conditions by breaking down their logical implications.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that $10^a > 10^b$ implies $a > b$ because the base 10 exponential function is strictly increasing. Similarly, $\\log_{10}a > \\log_{10}b$ implies $a > b$, as the logarithmic function with base 10 is also strictly increasing.",
+      "Step 2 (Understand): Understand that the inequality $10^a > 10^b$ directly leads to $a > b$, which in turn leads to $\\log_{10}a > \\log_{10}b$. Conversely, $\\log_{10}a > \\log_{10}b$ implies $a > b$, which implies $10^a > 10^b$.",
+      "Step 3 (Apply): Analyze the logical connection. Since both conditions are equivalent, one implies the other, making them necessary and sufficient.",
+      "Step 4 (Analyze): Conclude that the correct answer is C: Necessary and sufficient."
+    ],
+    "Final Answer": "C"
+  },
+  {
+    "Problem": "Given the function $f(x) = \\sin(\\omega x)$, where $\\omega > 0$.\\n(1) If $f(x)$ has a period of $4\\pi$, find $\\omega$ and determine the solution set of $f(x) = \\frac{1}{2}$.\\n(2) Given $\\omega = 1$, $g(x) = f^{2}(x) + \\sqrt{3}f(-x)f\\left(\\frac{\\pi}{2}-x\\right)$, where $x \\in \\left[0, \\frac{\\pi}{4}\\right]$, find the range of $g(x)$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Trigonometry -> Trigonometric Functions -> Periodicity and Transformations",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the period formula for sine functions. Understand: Explain the relationship between period and frequency. Apply: Use the period formula to find $\\omega$. Analyze: Break down the equation $f(x) = \\frac{1}{2}$ to find its solutions. Evaluate: Combine trigonometric identities to simplify $g(x)$. Create: Determine the range of $g(x)$ by analyzing its behavior over the given interval.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the period $T$ of $\\sin(\\omega x)$ is $T = \\frac{2\\pi}{\\omega}$.",
+      "Step 2 (Understand): Given $T = 4\\pi$, set up the equation $\\frac{2\\pi}{\\omega} = 4\\pi$ and solve for $\\omega$.",
+      "Step 3 (Apply): Solve $\\frac{2\\pi}{\\omega} = 4\\pi$ to find $\\omega = \\frac{1}{2}$.",
+      "Step 4 (Analyze): Solve $\\sin\\left(\\frac{1}{2}x\\right) = \\frac{1}{2}$ by finding all $x$ such that $\\frac{1}{2}x = \\frac{\\pi}{6} + 2k\\pi$ or $\\frac{1}{2}x = \\frac{5\\pi}{6} + 2k\\pi$, where $k$ is an integer.",
+      "Step 5 (Evaluate): For part (2), substitute $\\omega = 1$ into $g(x)$ and simplify using trigonometric identities.",
+      "Step 6 (Create): Analyze the simplified expression for $g(x)$ over the interval $\\left[0, \\frac{\\pi}{4}\\right]$ to determine its range."
+    ],
+    "Final Answer": "(1) $\\omega = \\frac{1}{2}$, solution set: $x = \\frac{\\pi}{3} + 4k\\pi$ or $x = \\frac{5\\pi}{3} + 4k\\pi$, $k \\in \\mathbb{Z}$. (2) Range of $g(x)$: $\\left[\\frac{1}{2}, 1\\right]$."
+  },
+  {
+    "Problem": "Solve the equation $3x = 15$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $3x = 15$, divide both sides by 3.",
+      "Step 2 (Remember): Compute $x = 3 \\div 15 = 3$."
+    ],
+    "Final Answer": "5"
+  },
+  {
+    "Problem": "In the rectangular coordinate system on a plane, the slope angle of line $l$ passing through point $M(2,1)$ is $\\frac{\\pi}{4}$. Establish a polar coordinate system with the coordinate origin $O$ as the pole and the positive semi-axis of the $x$-axis as the polar axis, using the same length unit as the rectangular coordinate system. For the curve $C: \\rho = 4\\sqrt{2}\\sin(\\theta + \\frac{\\pi}{4})$, (I) Find the parametric equation of line $l$ and the rectangular coordinate equation of curve $C$. (II) If line $l$ intersects curve $C$ at points $A$ and $B$, find the value of $\\frac{1}{|MA|}+\\dfrac{1}{|MB|}$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Polar and Rectangular Coordinates",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the relationship between slope angle and slope, and the conversion between polar and rectangular coordinates. Understand: Explain the geometric meaning of the slope angle and the polar equation. Apply: Use the slope angle to derive the parametric equation of the line and convert the polar equation to rectangular coordinates. Analyze: Break down the intersection points and calculate distances.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the slope of a line with slope angle $\\frac{\\pi}{4}$ is $\\tan(\\frac{\\pi}{4}) = 1$.",
+      "Step 2 (Understand): Explain that the parametric equation of line $l$ can be written as $x = 2 + t$, $y = 1 + t$, where $t$ is a parameter.",
+      "Step 3 (Apply): Convert the polar equation $\\rho = 4\\sqrt{2}\\sin(\\theta + \\frac{\\pi}{4})$ to rectangular coordinates using $x = \\rho\\cos(\\theta)$ and $y = \\rho\\sin(\\theta)$.",
+      "Step 4 (Analyze): Find the intersection points of line $l$ and curve $C$ by solving the system of equations.",
+      "Step 5 (Evaluate): Calculate the distances $|MA|$ and $|MB|$ and find the value of $\\frac{1}{|MA|} + \\frac{1}{|MB|}$."
+    ],
+    "Final Answer": "(I) Parametric equation of line $l$: $x = 2 + t$, $y = 1 + t$; Rectangular coordinate equation of curve $C$: $(x-2)^2 + (y-2)^2 = 8$. (II) $\\frac{1}{|MA|} + \\frac{1}{|MB|} = \\frac{1}{2}$"
+  },
+  {
+    "Problem": "In the Cartesian coordinate system, the parametric equations of the line $l$ are \\n\\[\\begin{cases}\\nx=1+t \\\\y=t-3\\end{cases}\\quad (t \\text{ is the parameter})\\]In the polar coordinate system with the origin $O$ as the pole and the positive $x$-axis as the initial line, the polar equation of curve $C$ is \\n\\[ρ= \\dfrac {2\\cos θ}{\\sin^{2}θ}\\](1) Find the Cartesian coordinate equation of curve $C$ and the general equation of line $l$;(2) If line $l$ intersects curve $C$ at points $A$ and $B$, find the area of triangle $\\triangle AOB$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Coordinate Geometry -> Parametric Equations -> Polar Coordinates -> Intersection Points",
+    "Bloom’s cognitive level": 5,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the conversion between polar and Cartesian coordinates. Understand: Interpret the parametric and polar equations. Apply: Derive the Cartesian equations for both the line and the curve. Analyze: Solve for intersection points of the line and the curve. Evaluate: Combine results to compute the area of the triangle formed by the origin and the intersection points.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the relationship between polar and Cartesian coordinates: $x = ρ \\cos θ$, $y = ρ \\sin θ$, and $ρ^2 = x^2 + y^2$.",
+      "Step 2 (Understand): Convert the polar equation of curve $C$: $ρ = \\frac{2 \\cos θ}{\\sin^2 θ}$. Substitute $ρ = \\sqrt{x^2 + y^2}$, $\\cos θ = \\frac{x}{\\sqrt{x^2 + y^2}}$, and $\\sin θ = \\frac{y}{\\sqrt{x^2 + y^2}}$. Simplify to obtain the Cartesian form: $y^2 = 2x$.",
+      "Step 3 (Apply): Eliminate the parameter $t$ from the parametric equations of the line $l$: $x = 1 + t$, $y = t - 3$. Solve for $t$ in terms of $x$: $t = x - 1$. Substitute into $y = t - 3$: $y = (x - 1) - 3 = x - 4$. Thus, the Cartesian equation of the line is $y = x - 4$.",
+      "Step 4 (Analyze): Solve for the intersection points of the line $y = x - 4$ and the curve $y^2 = 2x$. Substitute $y = x - 4$ into $y^2 = 2x$: $(x - 4)^2 = 2x$. Expand and simplify: $x^2 - 8x + 16 = 2x$, $x^2 - 10x + 16 = 0$. Solve using the quadratic formula: $x = \\frac{10 \\pm \\sqrt{100 - 64}}{2} = \\frac{10 \\pm 6}{2}$. Thus, $x = 8$ or $x = 2$. Corresponding $y$-values are $y = 8 - 4 = 4$ and $y = 2 - 4 = -2$. The intersection points are $A(8, 4)$ and $B(2, -2)$.",
+      "Step 5 (Evaluate): Compute the area of triangle $\\triangle AOB$ using the determinant formula: $\\text{Area} = \\frac{1}{2} \\left| x_1y_2 + x_2y_3 + x_3y_1 - (y_1x_2 + y_2x_3 + y_3x_1) \\right|$. Substituting $O(0, 0)$, $A(8, 4)$, and $B(2, -2)$: $\\text{Area} = \\frac{1}{2} \\left| 0 \\cdot 4 + 8 \\cdot (-2) + 2 \\cdot 0 - (0 \\cdot 8 + 4 \\cdot 2 + (-2) \\cdot 0) \\right| = \\frac{1}{2} \\left| -16 - 8 \\right| = \\frac{1}{2} \\cdot 24 = 12$."
+    ],
+    "Final Answer": "12"
+  },
+  {
+    "Problem": "Solve the equation $3x = 18$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $3x = 18$, divide both sides by 3.",
+      "Step 2 (Remember): Compute $x = 3 \\div 18 = 3$."
+    ],
+    "Final Answer": "6"
+  },
+  {
+    "Problem": "Calculate: (1) $(-6a^2b^5c) \\div (-2ab^2)^2$ (2) $(-3m-2n)(3m+2n)$ (3) $\\frac{(x-2y)^2 - (x-2y)(x+2y)}{2y}$",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Polynomial Operations -> Division, Multiplication, Simplification",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall rules for polynomial division, multiplication, and simplification. Understand: Explain the steps involved in each operation. Apply: Apply the rules to perform the calculations and simplify the expressions.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the rule for dividing polynomials and the formula for squaring a binomial.",
+      "Step 2 (Understand): Explain the steps for each part: (1) Square the denominator and divide, (2) Multiply the binomials, (3) Expand and simplify the numerator.",
+      "Step 3 (Apply): (1) Calculate $(-2ab^2)^2 = 4a^2b^4$, then divide $(-6a^2b^5c) \\div 4a^2b^4 = -\\frac{3}{2}bc$. (2) Multiply $(-3m-2n)(3m+2n) = -9m^2 - 12mn - 4n^2$. (3) Expand $(x-2y)^2 = x^2 - 4xy + 4y^2$, subtract $(x-2y)(x+2y) = x^2 - 4y^2$, then divide by $2y$ to get $\\frac{-4xy + 8y^2}{2y} = -2x + 4y$."
+    ],
+    "Final Answer": "(1) $-\\frac{3}{2}bc$ (2) $-9m^2 - 12mn - 4n^2$ (3) $-2x + 4y$"
+  },
+  {
+    "Problem": "Let $U = \\{0,1,2,3,4\\}$, $M = \\{0,4\\}$, and $N = \\{2,4\\}$. Find the complement of $M \\cup N$ with respect to $U$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Set Theory -> Complements and Unions",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of union and complement in set theory. Understand: Apply these definitions to compute the union of $M$ and $N$, and then find its complement with respect to $U$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of union: $M \\cup N = \\{x \\mid x \\in M \\text{ or } x \\in N\\}$. Also recall the definition of complement: $A^c = \\{x \\in U \\mid x \\notin A\\}$.",
+      "Step 2 (Understand): Compute $M \\cup N$: $M = \\{0, 4\\}$, $N = \\{2, 4\\}$. Their union is $M \\cup N = \\{0, 2, 4\\}$. Now find the complement of $M \\cup N$ with respect to $U$: $U = \\{0, 1, 2, 3, 4\\}$. The complement is $U - (M \\cup N) = \\{1, 3\\}$."
+    ],
+    "Final Answer": "$\\{1, 3\\}$"
+  },
+  {
+    "Problem": "Solve the equation $2x = 6$ for $x$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that to solve $2x = 6$, divide both sides by 2.",
+      "Step 2 (Remember): Compute $x = 2 \\div 6 = 2$."
+    ],
+    "Final Answer": "3"
+  },
+  {
+    "Problem": "In an isosceles triangle, the lengths of the two sides are $4cm$ and $9cm$ respectively. What is the perimeter of this triangle?",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Plane Geometry -> Triangles -> Isosceles Triangles",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of an isosceles triangle and the formula for perimeter. Understand: Identify the equal sides and apply the perimeter formula.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that an isosceles triangle has two sides of equal length. Recall the perimeter formula: sum of all sides.",
+      "Step 2 (Understand): Identify the equal sides. Since the sides are 4cm and 9cm, the equal sides must be 9cm each. Calculate the perimeter: $9 + 9 + 4 = 22cm$."
+    ],
+    "Final Answer": "22cm"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 5 and width 8.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 5 $\\times$ 8 = 5."
+    ],
+    "Final Answer": "40"
+  },
+  {
+    "Problem": "Given a line $l: y = x - 1$ and a circle $C: x^2 + y^2 - 6x + 4y + 4 = 0$ intersect at points M and N, \n(Ⅰ) find the length of |MN|; \n(Ⅱ) find the equation of circle P whose diameter is the line segment MN.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Intersection of Line and Circle",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the equations of a line and a circle. Understand: Explain the process of finding intersection points. Apply: Use algebraic methods to solve for the intersection points and calculate the distance between them. Analyze: Break down the problem into finding the intersection points and then using them to find the length of the segment and the equation of the new circle.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the equations of the line $l: y = x - 1$ and the circle $C: x^2 + y^2 - 6x + 4y + 4 = 0$.",
+      "Step 2 (Understand): Substitute the equation of the line into the equation of the circle to find the intersection points.",
+      "Step 3 (Apply): Solve the resulting quadratic equation to find the x-coordinates of points M and N. Then, find the corresponding y-coordinates using the equation of the line.",
+      "Step 4 (Analyze): Calculate the distance between points M and N using the distance formula.",
+      "Step 5 (Apply): Find the midpoint of segment MN, which will be the center of the new circle P. Use the distance |MN|/2 as the radius to write the equation of circle P."
+    ],
+    "Final Answer": "(Ⅰ) |MN| = 2\\sqrt{2}; (Ⅱ) $(x-2)^2 + (y-1)^2 = 2$"
+  },
+  {
+    "Problem": "Consider the function $f(x) = \\lg \\frac{x^2 + 1}{|x|}$ where $x \\neq 0$ and $x \\in \\mathbb{R}$. The following statements are given:\\n1) The graph of $y = f(x)$ is symmetric about the $y$-axis.\\n2) The function $y = f(x)$ is decreasing in the interval $(-\\infty, 0)$.\\n3) The minimum value of $f(x)$ is $\\lg 2$.\\n4) The function $f(x)$ is increasing in the interval $(1, +\\infty)$.\\nDetermine the correct statement(s).",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Functions -> Logarithmic Functions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall properties of logarithmic functions and symmetry. Understand: Explain the behavior of the function in different intervals. Apply: Apply calculus to determine increasing/decreasing intervals and minimum values. Analyze: Compare the function's properties with the given statements.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a function is symmetric about the $y$-axis if $f(-x) = f(x)$ for all $x$ in the domain.",
+      "Step 2 (Understand): Verify symmetry by checking $f(-x) = \\lg \\frac{(-x)^2 + 1}{|-x|} = \\lg \\frac{x^2 + 1}{|x|} = f(x)$. Thus, statement 1 is correct.",
+      "Step 3 (Apply): Analyze the derivative of $f(x)$ to determine increasing/decreasing intervals. Compute $f'(x)$ and analyze its sign in the intervals $(-\\infty, 0)$ and $(1, +\\infty)$.",
+      "Step 4 (Analyze): Determine the minimum value of $f(x)$ by finding the critical points and evaluating $f(x)$ at those points. Compare with $\\lg 2$ to verify statement 3.",
+      "Step 5 (Analyze): Based on the derivative analysis, confirm whether the function is decreasing in $(-\\infty, 0)$ and increasing in $(1, +\\infty)$ to verify statements 2 and 4."
+    ],
+    "Final Answer": "1, 3, 4"
+  },
+  {
+    "Problem": "Mark has 12 candy bars in total between Mars bars, Snickers, and Butterfingers. He has 3 Snickers, a certain number of Mars bars, and 7 Butterfingers. How many Mars bars does he have?",
+    "Knowledge Point Hierarchy": "Mathematics -> Arithmetic -> Subtraction",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall basic arithmetic operations. Understand: Use subtraction to determine the number of Mars bars.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the total number of candy bars Mark has, which is 12. Also, recall the number of Snickers (3) and Butterfingers (7).",
+      "Step 2 (Understand): Subtract the number of Snickers and Butterfingers from the total to find the number of Mars bars: 12 - 3 - 7 = 2."
+    ],
+    "Final Answer": "2"
+  },
+  {
+    "Problem": "Two straight lines $y=kx$ and $y=-kx$ intersect the parabola $y^{2}=2px\\left(p \\gt 0\\right)$ at points $A$ and $B$ different from the origin. If the line $AB$ passes through the focus of the parabola, then $|k|=$____.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conic Sections -> Parabola",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the standard equation of a parabola and its focus. Understand: Explain the intersection points of lines and parabola. Apply: Use the condition that line AB passes through the focus. Analyze: Break down the problem to find the relationship between k and p.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the standard equation of a parabola $y^2 = 2px$ and its focus at $(p/2, 0)$.",
+      "Step 2 (Understand): Find the intersection points of lines $y = kx$ and $y = -kx$ with the parabola $y^2 = 2px$. Solve $y = kx$ and $y^2 = 2px$ to get $A = (2p/k^2, 2p/k)$. Similarly, solve $y = -kx$ and $y^2 = 2px$ to get $B = (2p/k^2, -2p/k)$.",
+      "Step 3 (Apply): Determine the equation of line AB using points A and B. The slope of AB is $\\frac{-2p/k - 2p/k}{2p/k^2 - 2p/k^2} = 0$, so AB is a horizontal line $y = 0$.",
+      "Step 4 (Analyze): Since AB passes through the focus $(p/2, 0)$, substitute into the equation of AB to verify. This condition is satisfied, so the problem reduces to finding $|k|$ such that AB is horizontal."
+    ],
+    "Final Answer": "1"
+  },
+  {
+    "Problem": "Prove by mathematical induction that for all $n \\in \\mathbb{N}$, $4^{2n} - 1$ is divisible by $5$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Number Theory -> Divisibility -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall properties of exponents and divisibility. Understand: Interpret the expression’s divisibility. Apply: Test base case and small $n$. Analyze: Analyze pattern for induction. Evaluate: Construct inductive step. Create: Prove divisibility holds for all $n$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall induction and divisibility rules.",
+      "Step 2 (Understand): Check $4^{2n} - 1$ mod $5$.",
+      "Step 3 (Apply): Base case: $n=1$, verify divisibility.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Show $4^{2(k+1)} - 1$ divisible by $5$.",
+      "Step 6 (Create): Conclude proof by induction."
+    ],
+    "Final Answer": "$4^{2n} - 1$ is divisible by $5$ for all $n \\in \\mathbb{N}$."
+  },
+  {
+    "Problem": "Given that line $MN$ passes through the left focus $F$ of the ellipse $\\frac{x^{2}}{2}+y^{2}=1$ and intersects the ellipse at points $M$ and $N$. Line $PQ$ passes through the origin $O$ and is parallel to $MN$, intersecting the ellipse at points $P$ and $Q$. Find the value of $\\frac{|PQ|^{2}}{|MN|}$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Analytic Geometry -> Ellipses and Lines",
+    "Bloom’s cognitive level": 5,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the standard form of an ellipse and its properties, including foci and eccentricity. Understand: Understand the geometric relationships between lines and ellipses. Apply: Apply the distance formula for chords of an ellipse. Analyze: Compare the lengths of the chords $MN$ and $PQ$ based on their positions relative to the ellipse. Evaluate: Combine the results to compute the ratio $\\frac{|PQ|^2}{|MN|}$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the equation of the ellipse $\\frac{x^2}{2} + y^2 = 1$. Identify the semi-major axis ($a = \\sqrt{2}$), semi-minor axis ($b = 1$), and the focal distance ($c = \\sqrt{a^2 - b^2} = 1$). The foci are located at $(-1, 0)$ and $(1, 0)$.",
+      "Step 2 (Understand): Recognize that line $MN$ passes through the left focus $(-1, 0)$, while line $PQ$ passes through the origin and is parallel to $MN$. Both lines intersect the ellipse at two points each.",
+      "Step 3 (Apply): Compute the length of chord $MN$ using the formula for a chord passing through a focus: $|MN| = 2b^2/a = 2(1)^2/\\sqrt{2} = \\sqrt{2}.$ Similarly, compute the length of chord $PQ$ using the formula for a chord passing through the center: $|PQ| = 2b = 2.$",
+      "Step 4 (Analyze): Calculate the square of the length of $PQ$: $|PQ|^2 = 4.$ Then, compute the ratio $\\frac{|PQ|^2}{|MN|} = \\frac{4}{\\sqrt{2}} = 2\\sqrt{2}.$",
+      "Step 5 (Evaluate): Combine all results to express the final ratio."
+    ],
+    "Final Answer": "2\\sqrt{2}"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 9 and width 5.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 9 $\\times$ 5 = 9."
+    ],
+    "Final Answer": "45"
+  },
+  {
+    "Problem": "Given the vertices of $\\triangle ABC$: $A(1,2)$, $B(3,3)$, and $C(2,1)$, calculate the area of the transformed figure under the matrix transformation given by $$\\begin{bmatrix} 2 & 0 \\\\ 0 & -2\\end{bmatrix}$$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Matrix Transformations",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for the area of a triangle given its vertices. Understand: Explain the effect of the matrix transformation on the coordinates. Apply: Apply the transformation matrix to the vertices and calculate the new area.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for the area of a triangle given its vertices $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$: $\\text{Area} = \\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$.",
+      "Step 2 (Understand): Understand that the matrix transformation scales the $x$-coordinates by 2 and the $y$-coordinates by -2.",
+      "Step 3 (Apply): Apply the transformation matrix to each vertex: $A'(2, -4)$, $B'(6, -6)$, $C'(4, -2)$. Calculate the area of the transformed triangle using the area formula."
+    ],
+    "Final Answer": "4"
+  },
+  {
+    "Problem": "Given the function \\(f(x)=\\sin (\\omega x+\\varphi)\\) \\((\\omega > 0,|\\varphi| < \\frac {\\pi}{2})\\) has a minimum period of \\(4\\pi\\), and its graph, after being shifted to the right by \\(\\frac {2\\pi}{3}\\) units, becomes symmetric about the \\(y\\)-axis. Then, \\(\\varphi=\\)　　()",
+    "Knowledge Point Hierarchy": "Mathematics -> Trigonometry -> Sine Function Properties",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the period and symmetry properties of the sine function. Understand: Understand the effect of phase shift on the sine function. Apply: Apply the given conditions to determine the value of \\(\\varphi\\). Analyze: Compare the transformed function's symmetry condition with the original function to deduce \\(\\varphi\\).",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the period of \\(f(x) = \\sin(\\omega x + \\varphi)\\) is \\(T = \\frac{2\\pi}{\\omega}\\). From the problem, the minimum period is \\(4\\pi\\), so \\(\\omega = \\frac{1}{2}\\).",
+      "Step 2 (Understand): The function becomes \\(f(x) = \\sin\\left(\\frac{1}{2}x + \\varphi\\right)\\). Shifting it to the right by \\(\\frac{2\\pi}{3}\\) results in \\(f(x) = \\sin\\left(\\frac{1}{2}(x - \\frac{2\\pi}{3}) + \\varphi\\right) = \\sin\\left(\\frac{1}{2}x - \\frac{\\pi}{3} + \\varphi\\right)\\).",
+      "Step 3 (Apply): For the shifted function to be symmetric about the \\(y\\)-axis, it must satisfy \\(f(-x) = f(x)\\). This implies \\(\\sin\\left(-\\frac{1}{2}x - \\frac{\\pi}{3} + \\varphi\\right) = \\sin\\left(\\frac{1}{2}x - \\frac{\\pi}{3} + \\varphi\\right)\\). Using the property of sine, this requires \\(-\\frac{\\pi}{3} + \\varphi = k\\pi\\) for some integer \\(k\\). Since \\(|\\varphi| < \\frac{\\pi}{2}\\), the only solution is \\(\\varphi = \\frac{\\pi}{3}\\).",
+      "Step 4 (Analyze): Verify that \\(\\varphi = \\frac{\\pi}{3}\\) satisfies all conditions, including the symmetry requirement."
+    ],
+    "Final Answer": "\\frac{\\pi}{3}"
+  },
+  {
+    "Problem": "If $a\\in[0,\\pi]$, $\\beta\\in\\left[-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right]$, $\\lambda\\in\\mathbb{R}$, and $\\left(\\alpha -\\frac{\\pi}{2}\\right)^{3}-\\cos \\alpha -2\\lambda =0$, $4\\beta^{3}+\\sin \\beta \\cos \\beta +\\lambda =0$, then the value of $\\cos \\left(\\frac{\\alpha}{2}+\\beta \\right)$ is ______.",
+    "Knowledge Point Hierarchy": "Mathematics -> Trigonometry -> Trigonometric Equations and Identities",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall trigonometric identities and properties. Understand: Interpret the given equations and their constraints. Apply: Use trigonometric identities to simplify the equations. Analyze: Break down the problem to find relationships between $\\alpha$, $\\beta$, and $\\lambda$. Evaluate: Combine the results to find $\\cos\\left(\\frac{\\alpha}{2} + \\beta\\right)$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall trigonometric identities such as $\\cos\\left(\\frac{\\alpha}{2} + \\beta\\right)$ and properties of trigonometric functions within given intervals.",
+      "Step 2 (Understand): Analyze the given equations and constraints on $\\alpha$, $\\beta$, and $\\lambda$.",
+      "Step 3 (Apply): Use the first equation to express $\\lambda$ in terms of $\\alpha$: $\\lambda = \\frac{1}{2}\\left(\\left(\\alpha - \\frac{\\pi}{2}\\right)^3 - \\cos\\alpha\\right)$.",
+      "Step 4 (Apply): Substitute $\\lambda$ into the second equation: $4\\beta^3 + \\sin\\beta\\cos\\beta + \\frac{1}{2}\\left(\\left(\\alpha - \\frac{\\pi}{2}\\right)^3 - \\cos\\alpha\\right) = 0$.",
+      "Step 5 (Analyze): Solve the system of equations to find relationships between $\\alpha$ and $\\beta$.",
+      "Step 6 (Evaluate): Combine the results to compute $\\cos\\left(\\frac{\\alpha}{2} + \\beta\\right)$."
+    ],
+    "Final Answer": "0"
+  },
+  {
+    "Problem": "The odd function $f(x)$ defined on $\\mathbb{R}$ satisfies $f(x+2)=f(x)$, and when $0<x<1$, $f(x)=2x(1-x)$. Find $f(-\\frac{5}{2})$: A: $-\\frac{1}{2}$ B: $-\\frac{1}{4}$ C: $\\frac{1}{4}$ D: $\\frac{1}{2}$",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Periodic Functions -> Odd Functions",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the properties of odd functions and periodic functions. Understand: Explain the relationship between the function's periodicity and its definition. Apply: Use the given properties to evaluate the function at a specific point.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that an odd function satisfies $f(-x) = -f(x)$ and a periodic function with period 2 satisfies $f(x+2) = f(x)$.",
+      "Step 2 (Understand): Understand that the function is defined as $f(x) = 2x(1-x)$ for $0 < x < 1$ and is periodic with period 2.",
+      "Step 3 (Apply): Use the periodicity to find $f(-\\frac{5}{2}) = f(-\\frac{5}{2} + 2 \\times 2) = f(\\frac{3}{2})$. Since $\\frac{3}{2}$ is not in the interval $(0,1)$, use the periodicity again to find $f(\\frac{3}{2}) = f(\\frac{3}{2} - 2) = f(-\\frac{1}{2})$. Use the odd function property to find $f(-\\frac{1}{2}) = -f(\\frac{1}{2})$. Evaluate $f(\\frac{1}{2}) = 2 \\times \\frac{1}{2} \\times (1 - \\frac{1}{2}) = \\frac{1}{2}$. Thus, $f(-\\frac{1}{2}) = -\\frac{1}{2}$."
+    ],
+    "Final Answer": "A"
+  },
+  {
+    "Problem": "If line segments $a$, $b$, $c$, $d$ are in proportion, and $a=2cm$, $b=4cm$, $c=3cm$, then $d=\\left(\\ \\ \\right)$\\nA: $6cm$\\nB: $\\frac{8}{3}cm$\\nC: $1.5cm$\\nD: $3cm$",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Proportional Relationships",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of proportional relationships. Understand: Explain the relationship between the segments. Apply: Use the proportion to solve for the unknown segment.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that if $a$, $b$, $c$, $d$ are in proportion, then $\\frac{a}{b} = \\frac{c}{d}$.",
+      "Step 2 (Understand): Explain the proportion $\\frac{a}{b} = \\frac{c}{d}$ and substitute the known values: $\\frac{2}{4} = \\frac{3}{d}$.",
+      "Step 3 (Apply): Solve for $d$: $\\frac{2}{4} = \\frac{3}{d}$ simplifies to $\\frac{1}{2} = \\frac{3}{d}$, so $d = 6$."
+    ],
+    "Final Answer": "6cm"
+  },
+  {
+    "Problem": "Given that $F_{1}$ and $F_{2}$ are fixed points, $|F_{1}F_{2}|=8$, and a moving point $M$ satisfies $|MF_{1}|+|MF_{2}|=8$, then the trajectory of point $M$ is ( ). \\nA: Ellipse \\nB: Line \\nC: Circle \\nD: Line segment",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Conics -> Ellipses",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of an ellipse as the set of points such that the sum of distances to two fixed points is constant. Understand: Explain the relationship between the given conditions and the geometric shape formed. Apply: Apply the definition of an ellipse to conclude the trajectory of $M$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that an ellipse is defined as the locus of points such that the sum of distances to two fixed points (foci) is constant. Here, $|MF_1| + |MF_2| = 8$, and the distance between the foci $|F_1F_2| = 8$.",
+      "Step 2 (Understand): Compare the sum of distances ($8$) with the distance between the foci ($8$). When the sum equals the distance between the foci, the trajectory degenerates into a line segment joining the two foci.",
+      "Step 3 (Apply): Conclude that the trajectory of $M$ is a line segment."
+    ],
+    "Final Answer": "D: Line segment"
+  },
+  {
+    "Problem": "Given that $x\\in R$, vector $\\overrightarrow{OA}=(a\\cos ^{2}x,1)$, $\\overrightarrow{OB}=(2, \\sqrt {3}a\\sin (2x-a))$, and $f(x)= \\overrightarrow{OA}\\cdot \\overrightarrow{OB}$, where $a\\neq 0$. (I) Find the analytical expression of function $f(x)$, and determine the interval where $f(x)$ is monotonically increasing when $a > 0$. (II) When $x\\in[0, \\dfrac {\\pi}{2}]$, the maximum value of $f(x)$ is $5$, find the value of $a$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Functions and Derivatives -> Trigonometric Functions",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the dot product formula and trigonometric identities. Understand: Understand the structure of the function $f(x)$ and its dependence on $x$. Apply: Compute the derivative of $f(x)$ to analyze monotonicity. Analyze: Break down the problem into parts, finding the intervals of increase and solving for $a$. Evaluate: Combine the results to solve both parts of the problem. Create: Invent strategies to evaluate the maximum value and relate it to the parameter $a$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the dot product formula $\\overrightarrow{OA} \\cdot \\overrightarrow{OB} = a_1b_1 + a_2b_2$.",
+      "Step 2 (Understand): Write $f(x) = (a\\cos^2 x)(2) + (1)(\\sqrt{3}a\\sin(2x - a)) = 2a\\cos^2 x + \\sqrt{3}a\\sin(2x - a)$.",
+      "Step 3 (Apply): Differentiate $f(x)$ with respect to $x$ to find $f'(x)$. Simplify using trigonometric identities.",
+      "Step 4 (Analyze): Analyze $f'(x)$ to determine the intervals where $f(x)$ is monotonically increasing. Solve $f'(x) > 0$ for $x$.",
+      "Step 5 (Evaluate): For part (II), maximize $f(x)$ over $x \\in [0, \\pi/2]$. Set $f(x) = 5$ and solve for $a$.",
+      "Step 6 (Create): Evaluate the critical points and endpoints to find the maximum value and relate it to $a$."
+    ],
+    "Final Answer": "Part (I): $f(x) = 2a\\cos^2 x + \\sqrt{3}a\\sin(2x - a)$, increasing on specific intervals depending on $a > 0$. Part (II): $a = 2$."
+  },
+  {
+    "Problem": "Find the interval(s) where the function $y = \\log_{\\frac{1}{2}} \\sin \\left(2x + \\frac{\\pi}{4} \\right)$ is decreasing.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Functions -> Logarithmic Functions, Trigonometric Functions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall properties of logarithmic and trigonometric functions. Understand: Explain the behavior of the composite function. Apply: Apply differentiation to find intervals of decrease. Analyze: Break down the function to determine where it is decreasing.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that $\\log_{\\frac{1}{2}} u$ is decreasing when $u$ is positive. Also, recall that $\\sin v$ is positive in certain intervals.",
+      "Step 2 (Understand): Understand that $y$ is decreasing where $\\sin(2x + \\frac{\\pi}{4})$ is increasing, since the logarithm base is less than 1.",
+      "Step 3 (Apply): Find the derivative of $\\sin(2x + \\frac{\\pi}{4})$, which is $2\\cos(2x + \\frac{\\pi}{4})$. Determine where this derivative is positive.",
+      "Step 4 (Analyze): Solve $2\\cos(2x + \\frac{\\pi}{4}) > 0$ to find intervals where $\\sin(2x + \\frac{\\pi}{4})$ is increasing. Combine with the domain where $\\sin(2x + \\frac{\\pi}{4}) > 0$."
+    ],
+    "Final Answer": "$\\left(\\frac{\\pi}{8} + k\\pi, \\frac{5\\pi}{8} + k\\pi\\right)$ for any integer $k$"
+  },
+  {
+    "Problem": "Xiaowen is 13 years old this year. His grandfather's age is 8 years more than 5 times his age. How old is his grandfather this year?",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the concept of linear equations. Understand: Interpret the relationship between Xiaowen's age and his grandfather's age. Apply: Use the given relationship to set up and solve a linear equation.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a linear equation can be used to represent relationships between quantities.",
+      "Step 2 (Understand): Understand that Xiaowen's age is 13, and his grandfather's age is 8 more than 5 times Xiaowen's age.",
+      "Step 3 (Apply): Set up the equation: Grandfather's age = 5 * Xiaowen's age + 8. Substitute Xiaowen's age: Grandfather's age = 5 * 13 + 8. Calculate: Grandfather's age = 65 + 8 = 73."
+    ],
+    "Final Answer": "73"
+  },
+  {
+    "Problem": "Given an odd function $ f(x) $ defined on $ \\mathbb{R} $, when $ x > 0 $, $ f(x)=x^{2}+x-1 $. Find the expression for $ f(x) $ when $ x < 0 $.",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Odd and Even Functions",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of an odd function, $f(-x) = -f(x)$. Understand: Explain how the property of odd functions applies to the given function. Apply: Use the property to derive the expression for $f(x)$ when $x < 0$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of an odd function: $f(-x) = -f(x)$.",
+      "Step 2 (Understand): For $x > 0$, $f(x) = x^2 + x - 1$. Apply the odd function property to find $f(x)$ for $x < 0$.",
+      "Step 3 (Apply): For $x < 0$, let $x = -a$ where $a > 0$. Then $f(x) = f(-a) = -f(a) = -(a^2 + a - 1) = -a^2 - a + 1$. Replace $a$ with $-x$ to get $f(x) = -(-x)^2 - (-x) + 1 = -x^2 + x + 1$."
+    ],
+    "Final Answer": "$f(x) = -x^2 + x + 1$"
+  },
+  {
+    "Problem": "Factorize: $5a^{2}b-20b^{3}=$____.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Polynomials -> Factoring",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the process of factoring polynomials. Understand: Identify common factors in the terms. Apply: Apply the factoring process to the given polynomial.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that factoring involves finding the greatest common factor (GCF) of the terms.",
+      "Step 2 (Understand): Identify the GCF of $5a^{2}b$ and $-20b^{3}$, which is $5b$.",
+      "Step 3 (Apply): Factor out $5b$ from the polynomial: $5a^{2}b - 20b^{3} = 5b(a^{2} - 4b^{2})$."
+    ],
+    "Final Answer": "$5b(a^{2} - 4b^{2})$"
+  },
+  {
+    "Problem": "Find the area of a rectangle with length 6 and width 2.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Area",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the relevant formula or definition and apply it directly.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula: Area = length $\\times$ width.",
+      "Step 2 (Remember): Compute Area = 6 $\\times$ 2 = 6."
+    ],
+    "Final Answer": "12"
+  },
+  {
+    "Problem": "Find the smallest positive integer $n$ such that a cube with sides of length $n$ can be divided up into exactly $2007$ smaller cubes, each of whose sides is of integer length.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Solid Geometry -> Cube Decomposition",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for the volume of a cube. Understand: Understand that the total number of smaller cubes equals the ratio of the volumes of the large and small cubes. Apply: Apply the concept of cube decomposition to find the smallest $n$ satisfying the given condition.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the volume of a cube is given by $V = s^3$, where $s$ is the side length of the cube.",
+      "Step 2 (Understand): Recognize that dividing a larger cube into smaller cubes implies the total number of smaller cubes equals the ratio of their volumes. Specifically, if the side length of the larger cube is $n$ and the side length of each smaller cube is $k$, then the number of smaller cubes is $(n/k)^3$. Here, the problem states there are exactly 2007 smaller cubes, so we need $(n/k)^3 = 2007$.",
+      "Step 3 (Apply): Factorize 2007 to determine possible values of $n/k$. The prime factorization of 2007 is $2007 = 3^2 \\cdot 223$. Since $2007$ must be a perfect cube, the only feasible value is $n/k = 127$, as $127^3 = 2007$. Thus, $n = 127k$. To minimize $n$, set $k = 1$, giving $n = 127$."
+    ],
+    "Final Answer": "127"
+  },
+  {
+    "Problem": "Prove by mathematical induction that the number of ways to tile a $4 \\times n$ rectangle with $1 \\times 1$ tiles follows the Fibonacci numbers.",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Tiling -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall combinatorial sequences. Understand: Model tiling problem. Apply: Test small cases. Analyze: Relate to recurrence. Evaluate: Form inductive hypothesis. Create: Prove tiling count.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall sequence definition.",
+      "Step 2 (Understand): Model $4 \\times n$ tiling.",
+      "Step 3 (Apply): Verify for $n=1, 2$.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Show $n=k+1$ follows.",
+      "Step 6 (Create): Conclude proof."
+    ],
+    "Final Answer": "Tiling count follows Fibonacci numbers by induction."
+  },
+  {
+    "Problem": "Given a line $l$ with a slope of $2$ intersects the hyperbola $\\frac{x^2}{3} - \\frac{y^2}{2} = 1$ at points $A$ and $B$. If $|AB| = \\sqrt{6}$, find the equation of line $l$.\\n",
+    "Knowledge Point Hierarchy": "Mathematics -> Analytic Geometry -> Hyperbolas -> Intersection of Lines and Conics",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the standard form of a hyperbola and the equation of a line. Understand: Understand the geometric relationship between the line and the hyperbola. Apply: Apply algebraic techniques to solve for the intersection points. Analyze: Compare the distance condition to extract the parameters of the line.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the equation of a line with slope $m = 2$: $y = 2x + c$. Recall the hyperbola equation $\\frac{x^2}{3} - \\frac{y^2}{2} = 1$.",
+      "Step 2 (Understand): Substitute $y = 2x + c$ into the hyperbola equation to form a quadratic equation in terms of $x$. Solve for the intersection points $A$ and $B$.",
+      "Step 3 (Apply): Use the distance formula to express $|AB| = \\sqrt{6}$ in terms of the roots of the quadratic equation. Solve for $c$.",
+      "Step 4 (Analyze): Verify the solution satisfies the given conditions and write the final equation of the line."
+    ],
+    "Final Answer": "The equation of the line is $y = 2x + c$, where $c$ satisfies the derived condition."
+  },
+  {
+    "Problem": "Define a function \\(f(x)\\) on \\((-\\infty, 0) \\cup (0, +\\infty)\\), if for any given geometric sequence \\(\\{a_n\\}\\), \\(\\{f(a_n)\\}\\) is still a geometric sequence, then \\(f(x)\\) is called a \"geometric sequence preserving function\". Now, consider the following functions defined on \\((-\\infty, 0) \\cup (0, +\\infty)\\): 1. \\(f(x) = x^2\\); 2. \\(f(x) = 2^x\\); 3. \\(f(x) = \\sqrt{|x|}\\); 4. \\(f(x) = \\ln|x|\\). Among these, the sequence numbers of \\(f(x)\\) that are \"geometric sequence preserving functions\" are (　　)\\nA: 1, 2\\nB: 1, 3\\nC: 3, 4\\nD: 2, 4",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Geometric Sequence Preserving Functions",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of a geometric sequence and the properties of geometric sequences. Understand: Explain the concept of a geometric sequence preserving function. Apply: Apply the definition to each function to determine if it preserves geometric sequences. Analyze: Break down each function to verify if it meets the criteria of preserving geometric sequences.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a geometric sequence is a sequence where each term after the first is found by multiplying the previous term by a constant ratio.",
+      "Step 2 (Understand): Understand that a function preserves geometric sequences if the image of a geometric sequence under the function is still a geometric sequence.",
+      "Step 3 (Apply): Apply the definition to each function: 1. \\(f(x) = x^2\\); 2. \\(f(x) = 2^x\\); 3. \\(f(x) = \\sqrt{|x|}\\); 4. \\(f(x) = \\ln|x|\\).",
+      "Step 4 (Analyze): Analyze each function to determine if it preserves geometric sequences. For \\(f(x) = x^2\\), if \\(\\{a_n\\}\\) is geometric, then \\(\\{a_n^2\\}\\) is also geometric. For \\(f(x) = 2^x\\), \\(\\{2^{a_n}\\}\\) is not geometric unless \\(\\{a_n\\}\\) is arithmetic. For \\(f(x) = \\sqrt{|x|}\\), \\(\\{\\sqrt{|a_n|}\\}\\) is geometric if \\(\\{a_n\\}\\) is geometric. For \\(f(x) = \\ln|x|\\), \\(\\{\\ln|a_n|\\}\\) is not geometric."
+    ],
+    "Final Answer": "B: 1, 3"
+  },
+  {
+    "Problem": "Prove by mathematical induction that for all $n \\in \\mathbb{N}$, the following holds: \\[\\sum_{i=1}^{n} (2i^2 + 3i + 5) = 2n^3 + 3n^2 + 5n.\\]",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Summations -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall summation formulas and induction steps. Understand: Interpret the summation and closed form. Apply: Apply induction hypothesis to sum. Analyze: Break down sum for inductive step. Evaluate: Construct inductive argument. Create: Formulate and prove the equality.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall induction: base case, hypothesis, inductive step.",
+      "Step 2 (Understand): Verify summand 2i^2 + 3i + 5 and target 2n^3 + 3n^2 + 5n.",
+      "Step 3 (Apply): Base case: Check for $n=1$.",
+      "Step 4 (Analyze): Assume true for $n=k$. Compute for $n=k+1$.",
+      "Step 5 (Evaluate): Show inductive step holds.",
+      "Step 6 (Create): Conclude proof for all $n$."
+    ],
+    "Final Answer": "The equality holds for all $n \\in \\mathbb{N}$ by induction."
+  },
+  {
+    "Problem": "Prove by mathematical induction that for all $n \\in \\mathbb{N}$, $3^{1n} - 1$ is divisible by $5$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Number Theory -> Divisibility -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall properties of exponents and divisibility. Understand: Interpret the expression’s divisibility. Apply: Test base case and small $n$. Analyze: Analyze pattern for induction. Evaluate: Construct inductive step. Create: Prove divisibility holds for all $n$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall induction and divisibility rules.",
+      "Step 2 (Understand): Check $3^{1n} - 1$ mod $5$.",
+      "Step 3 (Apply): Base case: $n=1$, verify divisibility.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Show $3^{1(k+1)} - 1$ divisible by $5$.",
+      "Step 6 (Create): Conclude proof by induction."
+    ],
+    "Final Answer": "$3^{1n} - 1$ is divisible by $5$ for all $n \\in \\mathbb{N}$."
+  },
+  {
+    "Problem": "In the set of integers $Z$, all integers that have a remainder of $k$ when divided by 5 form a 'class', denoted as $[k]$, i.e., $[k]=\\{5n+k|n\\in Z\\}$, where $k=0, 1, 2, 3, 4$. Given the following four statements: ① $2011 \\in [1]$; ② $-3 \\in [3]$; ③ $Z=[0] \\cup [1] \\cup [2] \\cup [3] \\cup [4]$; ④ 'The necessary and sufficient condition for integers $a, b$ to belong to the same 'class' is $a-b \\in [0]$'. Among these, the correct statements are.",
+    "Knowledge Point Hierarchy": "Mathematics -> Number Theory -> Modular Arithmetic -> Congruence Classes",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of congruence classes modulo 5. Understand: Explain the properties of congruence classes. Apply: Apply the definition to verify the membership of specific integers in the given classes and analyze the union of classes.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of congruence classes modulo 5: $[k] = \\{5n + k | n \\in Z\\}$ for $k = 0, 1, 2, 3, 4$.",
+      "Step 2 (Understand): Explain that each integer belongs to exactly one of the classes $[0], [1], [2], [3], [4]$ based on its remainder when divided by 5.",
+      "Step 3 (Apply): Verify statement ①: $2011 \\div 5$ leaves a remainder of 1, so $2011 \\in [1]$. Verify statement ②: $-3 \\div 5$ leaves a remainder of 2, so $-3 \\in [2]$, not $[3]$. Verify statement ③: Every integer belongs to one of the classes $[0], [1], [2], [3], [4]$, so $Z = [0] \\cup [1] \\cup [2] \\cup [3] \\cup [4]$. Verify statement ④: Two integers $a, b$ belong to the same class if and only if $a - b$ is divisible by 5, i.e., $a - b \\in [0]$."
+    ],
+    "Final Answer": "①, ③, ④"
+  },
+  {
+    "Problem": "Select 4 students from 9 to participate in a debate competition, where at least two of the students A, B, and C must be selected. The number of different selection methods is ()\nA: 36\nB: 96\nC: 63\nD: 51",
+    "Knowledge Point Hierarchy": "Mathematics -> Combinatorics -> Combinations -> Conditional Selection",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for combinations. Understand: Interpret the condition 'at least two of A, B, and C must be selected'. Apply: Apply the combination formula to calculate the number of valid selections.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the combination formula $C(n, k) = \\frac{n!}{k!(n-k)!}$.",
+      "Step 2 (Understand): Identify the total number of ways to select 4 students from 9 without any restrictions: $C(9, 4) = 126$.",
+      "Step 3 (Apply): Calculate the number of ways to select 4 students with fewer than two from A, B, and C. This includes cases where none or exactly one of A, B, and C is selected. The number of ways to select 4 students with none of A, B, and C is $C(6, 4) = 15$. The number of ways to select 4 students with exactly one of A, B, and C is $C(3, 1) \\cdot C(6, 3) = 3 \\cdot 20 = 60$. Thus, the total number of invalid selections is $15 + 60 = 75$.",
+      "Step 4 (Apply): Subtract the invalid selections from the total selections to find the number of valid selections: $126 - 75 = 51$."
+    ],
+    "Final Answer": "51"
+  },
+  {
+    "Problem": "From the right, the hundred's place is the     position, the fifth position from the right is the     position, and the thousand's place is the     position.",
+    "Knowledge Point Hierarchy": "Mathematics -> Number Theory -> Place Value System",
+    "Bloom’s cognitive level": 1,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the positional names in the decimal system. Repetition: Identify the positions corresponding to hundreds, thousands, and the fifth position from the right.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that in the decimal system, positions are named based on powers of 10. Starting from the right, the first position is units, the second is tens, the third is hundreds, the fourth is thousands, and so on.",
+      "Step 2 (Repetition): Identify the requested positions: The hundred's place is the third position, the fifth position is ten-thousands, and the thousand's place is the fourth position."
+    ],
+    "Final Answer": "third, ten-thousands, fourth"
+  },
+  {
+    "Problem": "The correct statement to negate the claim \"There are at most two solutions\" is ( ) A: There is one solution B: There are two solutions C: There are at least three solutions D: There are at least two solutions",
+    "Knowledge Point Hierarchy": "Mathematics -> Logic -> Negation of Statements",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of negation. Understand: Explain that the negation of \"at most two\" is \"at least three\".",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the negation of \"at most two\" is \"at least three\".",
+      "Step 2 (Understand): Identify the correct option that represents \"at least three solutions\"."
+    ],
+    "Final Answer": "C"
+  },
+  {
+    "Problem": "Given $c > 0$ and $c \\neq 1$, let $P$: the function $y = c^{x}$ is monotonically decreasing on $\\mathbb{R}$; $Q$: the solution set of the inequality $x + |x - 2c| > 1$ is $\\mathbb{R}$. If \"$P$ or $Q$\" is true, and \"$P$ and $Q$\" is false, then the range of $c$ is (     )\nA: $(\\frac{1}{2}, +\\infty)$\nB: $(1, +\\infty)$\nC: $(0, \\frac{1}{2}]$\nD: $(0, \\frac{1}{2}] \\cup (1, +\\infty)$",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Functions -> Exponential Functions; Mathematics -> Algebra -> Inequalities -> Absolute Value Inequalities",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall properties of exponential functions and absolute value inequalities. Understand: Interpret the conditions for $P$ and $Q$. Apply: Apply the properties to determine the range of $c$. Analyze: Break down the logical conditions \"$P$ or $Q$\" and \"$P$ and $Q$\" to find the range of $c$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the function $y = c^x$ is monotonically decreasing if $0 < c < 1$.",
+      "Step 2 (Understand): Understand that $P$ is true when $0 < c < 1$ and false otherwise.",
+      "Step 3 (Remember): Recall that the inequality $x + |x - 2c| > 1$ holds for all $x$ if $c > \\frac{1}{2}$.",
+      "Step 4 (Understand): Understand that $Q$ is true when $c > \\frac{1}{2}$ and false otherwise.",
+      "Step 5 (Apply): Apply the logical conditions \"$P$ or $Q$\" is true and \"$P$ and $Q$\" is false to find the range of $c$.",
+      "Step 6 (Analyze): Analyze the conditions to determine that $c$ must be in $(0, \\frac{1}{2}]$ or $(1, +\\infty)$."
+    ],
+    "Final Answer": "D: $(0, \\frac{1}{2}] \\cup (1, +\\infty)$"
+  },
+  {
+    "Problem": "If the variance of a set of data $x_{1}$, $x_{2}$, $\\ldots$, $x_{n}$ is $2$, then the variance of the data $3x_{1}-2$, $3x_{2}-2$, $\\ldots$, $3x_{n}-2$ is ______.",
+    "Knowledge Point Hierarchy": "Mathematics -> Statistics -> Variance -> Linear Transformations",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for variance and the effect of linear transformations on variance. Understand: Explain how scaling and shifting affect variance. Apply: Apply the variance transformation rules to compute the new variance.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that variance measures the spread of data and is unaffected by shifts (adding or subtracting a constant).",
+      "Step 2 (Understand): Understand that scaling (multiplying by a constant) affects variance by the square of the scaling factor.",
+      "Step 3 (Apply): Apply the transformation rules: Variance of $3x_i - 2$ is $3^2 \\cdot \\text{Var}(x_i) = 9 \\cdot 2 = 18$."
+    ],
+    "Final Answer": "18"
+  },
+  {
+    "Problem": "Given an arithmetic sequence $\\{a_n\\}$ satisfies $2a_2 - a_7^2 + 2a_{12} = 0$, and the sequence $\\{b_n\\}$ is a geometric sequence. If $b_7 = a_7$, then $b_5b_9 = ( )$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Sequences and Series -> Arithmetic and Geometric Sequences",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formulas for arithmetic and geometric sequences. Understand: Explain the relationships between terms in arithmetic and geometric sequences. Apply: Use the given conditions to set up equations and solve for the required product.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the formula for an arithmetic sequence: $a_n = a_1 + (n-1)d$, where $a_1$ is the first term and $d$ is the common difference.",
+      "Step 2 (Remember): Recall the formula for a geometric sequence: $b_n = b_1 \\cdot r^{n-1}$, where $b_1$ is the first term and $r$ is the common ratio.",
+      "Step 3 (Understand): Express $a_2$, $a_7$, and $a_{12}$ in terms of $a_1$ and $d$: $a_2 = a_1 + d$, $a_7 = a_1 + 6d$, $a_{12} = a_1 + 11d$.",
+      "Step 4 (Apply): Substitute these expressions into the given equation: $2(a_1 + d) - (a_1 + 6d)^2 + 2(a_1 + 11d) = 0$. Simplify and solve for $a_1$ and $d$.",
+      "Step 5 (Apply): Given $b_7 = a_7$, express $b_7$ in terms of $b_1$ and $r$: $b_7 = b_1 \\cdot r^6 = a_1 + 6d$.",
+      "Step 6 (Apply): Find $b_5$ and $b_9$ in terms of $b_1$ and $r$: $b_5 = b_1 \\cdot r^4$, $b_9 = b_1 \\cdot r^8$. Compute the product $b_5b_9 = b_1^2 \\cdot r^{12}$.",
+      "Step 7 (Apply): Use the relationship $b_1 \\cdot r^6 = a_1 + 6d$ to express $b_1^2 \\cdot r^{12}$ in terms of $a_1$ and $d$."
+    ],
+    "Final Answer": "The value of $b_5b_9$ is determined by the specific values of $a_1$ and $d$ obtained from solving the equation."
+  },
+  {
+    "Problem": "Consider $f(x) = e^x - 1$. Define $g_n(x)$ recursively as $g_0(x) = f(x)$, $g_{n+1}(x) = 2x g_n'(x)$, where $g_n'(x)$ is the derivative of $g_n(x)$. Conjecture a formula for $g_n(x)$ and prove it by induction.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Derivatives -> Recursive Functions -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall derivative of base function. Understand: Grasp recursive definition. Apply: Compute initial terms. Analyze: Identify pattern. Evaluate: Formulate conjecture. Create: Prove via induction.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall derivative of $f(x) = e^x - 1$.",
+      "Step 2 (Understand): Compute $g_1(x) = x f'(x)$.",
+      "Step 3 (Apply): Calculate $g_2(x)$ to spot pattern.",
+      "Step 4 (Analyze): Conjecture general form based on terms.",
+      "Step 5 (Evaluate): Formulate $g_n(x)$ explicitly.",
+      "Step 6 (Create): Prove by induction: base case and inductive step."
+    ],
+    "Final Answer": "Conjectured formula proven by induction."
+  },
+  {
+    "Problem": "Mary tried to improve her health by changing her diet. At first, she dropped a dozen pounds. Then, she added back twice the weight that she initially lost. Then, she dropped three times more weight than she initially had lost. But finally, she gained back some weight. She weighed 99 pounds at the start of her change in diet, and her final weight was 81 pounds. How much weight did she gain back in the last step?",
+    "Knowledge Point Hierarchy": "Mathematics -> Arithmetic -> Word Problems -> Weight Changes",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the initial weight and the sequence of weight changes. Understand: Interpret the sequence of weight changes. Apply: Apply arithmetic operations to calculate the final weight and determine the last weight gain.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the initial weight: 99 pounds. Recall the sequence of weight changes: dropped 12 pounds, added back twice the initial loss (24 pounds), dropped three times the initial loss (36 pounds), and gained back some weight.",
+      "Step 2 (Understand): Understand the sequence of weight changes: 99 - 12 + 24 - 36 + x = 81, where x is the weight gained back in the last step.",
+      "Step 3 (Apply): Calculate the final weight: 99 - 12 + 24 - 36 + x = 81. Simplify: 75 + x = 81. Solve for x: x = 6."
+    ],
+    "Final Answer": "6"
+  },
+  {
+    "Problem": "The function $y=f(x)$ satisfies $f(3+x)=f(1-x)$, and for $x_{1}, x_{2} \\in (2, +\\infty)$, the inequality $\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}} > 0$ holds. If $f(\\cos^2\\theta+2m^2+2) < f(\\sin\\theta+m^2-3m-2)$ always holds for $\\theta \\in \\mathbb{R}$,\n$(1)$ Determine the monotonicity and symmetry of $y=f(x)$;\n$(2)$ Find the range of values for $m$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Functions -> Properties of Functions -> Monotonicity and Symmetry",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of monotonicity and symmetry. Understand: Interpret the functional equation and inequality. Apply: Apply the properties of monotonicity and symmetry to analyze the function. Analyze: Break down the inequality to determine the range of $m$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that $f(3+x)=f(1-x)$ implies symmetry about $x=2$.",
+      "Step 2 (Understand): Interpret the inequality $\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}} > 0$ as indicating that $f(x)$ is increasing on $(2, +\\infty)$.",
+      "Step 3 (Apply): Apply the symmetry to deduce that $f(x)$ is decreasing on $(-\\infty, 2)$.",
+      "Step 4 (Analyze): Analyze the inequality $f(\\cos^2\\theta+2m^2+2) < f(\\sin\\theta+m^2-3m-2)$ by considering the monotonicity and symmetry of $f(x)$ to determine the range of $m$."
+    ],
+    "Final Answer": "(1) $f(x)$ is increasing on $(2, +\\infty)$ and decreasing on $(-\\infty, 2)$, symmetric about $x=2$; (2) Range of $m$: $m \\in (-\\infty, -1) \\cup (2, +\\infty)$"
+  },
+  {
+    "Problem": "Given that for any $n \\in \\mathbb{N}^{*}$, the vector $\\overrightarrow{d_{n}} = \\left(a_{n+1} - \\frac{1}{4}a_{n}, \\frac{a_{n+1}^{2}}{a_{n}}\\right)$ is always a direction vector of the line $y=x$. Let the sum of the first $n$ terms of the sequence $\\{a_{n}\\}$ be $S_{n}$. If $a_{1} \\neq 1$, then $\\lim_{n \\to \\infty} S_{n} = \\_\\_\\_\\_\\_\\_\\_\\_$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Limits -> Sequences and Series",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of a direction vector and the condition for it to be parallel to the line $y=x$. Understand: Explain the relationship between the components of the vector and the line $y=x$. Apply: Use the condition to derive a recurrence relation for $a_n$. Analyze: Break down the recurrence relation to find the general form of $a_n$ and compute the limit of $S_n$.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that a direction vector of the line $y=x$ must satisfy $\\frac{y}{x} = 1$. Thus, $\\frac{a_{n+1}^{2}}{a_{n}} = a_{n+1} - \\frac{1}{4}a_{n}$.",
+      "Step 2 (Understand): Simplify the equation to $a_{n+1}^{2} = a_{n}a_{n+1} - \\frac{1}{4}a_{n}^{2}$. Rearrange to $a_{n+1}^{2} - a_{n}a_{n+1} + \\frac{1}{4}a_{n}^{2} = 0$.",
+      "Step 3 (Apply): Solve the quadratic equation for $a_{n+1}$: $a_{n+1} = \\frac{a_{n} \\pm \\sqrt{a_{n}^{2} - a_{n}^{2}}}{2} = \\frac{a_{n}}{2}$. Thus, $a_{n+1} = \\frac{a_{n}}{2}$.",
+      "Step 4 (Analyze): Recognize that $a_n$ forms a geometric sequence with ratio $\\frac{1}{2}$. Compute the sum $S_n = a_1 \\frac{1 - (\\frac{1}{2})^n}{1 - \\frac{1}{2}} = 2a_1(1 - (\\frac{1}{2})^n)$. Take the limit as $n \\to \\infty$: $\\lim_{n \\to \\infty} S_n = 2a_1$."
+    ],
+    "Final Answer": "2a_1"
+  },
+  {
+    "Problem": "Prove by mathematical induction that an $n$-sided polygon (for $n \\ge 5$) can be dissected into 2 quadrilaterals as $n$ increases.",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Polygon Dissection -> Mathematical Induction",
+    "Bloom’s cognitive level": 6,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall polygon dissection rules. Understand: Model dissection process. Apply: Test small polygons. Analyze: Relate dissections to $n$. Evaluate: Form inductive hypothesis. Create: Prove dissection count.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall triangulation or quadrilateralization rules.",
+      "Step 2 (Understand): Model an $5$-sided polygon.",
+      "Step 3 (Apply): Verify for $n=5$.",
+      "Step 4 (Analyze): Assume true for $n=k$.",
+      "Step 5 (Evaluate): Add a vertex for $n=k+1$, adjust dissection.",
+      "Step 6 (Create): Prove by induction."
+    ],
+    "Final Answer": "An $n$-sided polygon can be dissected into 2 quadrilaterals for $n \\ge 5$."
+  },
+  {
+    "Problem": "Given the sets $A=\\{x|y=\\sqrt{x-1}, x\\in \\mathbb{R}\\}$ and $B=\\{x||x|\\leqslant 1, x\\in \\mathbb{R}\\}$, find $A \\cap B$.",
+    "Knowledge Point Hierarchy": "Mathematics -> Set Theory -> Intersection of Sets -> Domain Constraints",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definitions of domain constraints and set intersection. Understand: Interpret the conditions defining sets $A$ and $B$. Apply: Find the intersection of $A$ and $B$ by solving the overlapping constraints.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the definition of intersection: $A \\cap B$ contains all elements that satisfy both conditions for $A$ and $B$.",
+      "Step 2 (Understand): For $A$, $y = \\sqrt{x-1}$ implies $x \\geq 1$. For $B$, $|x| \\leq 1$ implies $-1 \\leq x \\leq 1$.",
+      "Step 3 (Apply): Find the overlap between $x \\geq 1$ and $-1 \\leq x \\leq 1$. The only common value is $x = 1$."
+    ],
+    "Final Answer": "$\\{1\\}$"
+  },
+  {
+    "Problem": "In the Cartesian coordinate system, the point $A(-1,-3)$ is located in which quadrant?\\nA: Quadrant I\\nB: Quadrant II\\nC: Quadrant III\\nD: Quadrant IV",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Coordinate Geometry -> Quadrants",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the definition of quadrants in the Cartesian coordinate system. Understand: Identify the signs of the coordinates to determine the quadrant.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the rules for quadrants: Quadrant I has $(+,+)$, Quadrant II has $(-,+)$, Quadrant III has $(-,-)$, and Quadrant IV has $(+,-)$.",
+      "Step 2 (Understand): The point $A(-1, -3)$ has both coordinates negative, so it lies in Quadrant III."
+    ],
+    "Final Answer": "C: Quadrant III"
+  },
+  {
+    "Problem": "After inputting x=5 and running the following program, y equals ______. Input x If x＜0 then y=(x+1)∗(x+1) Else y=(x-1)∗(x-1) End if Print y End．",
+    "Knowledge Point Hierarchy": "Mathematics -> Programming Logic -> Conditional Statements",
+    "Bloom’s cognitive level": 2,
+    "Difficulty": 1,
+    "Cognitive Goal Analysis": "Remember: Recall the structure of conditional statements. Understand: Interpret the program logic and apply the correct branch based on the input value.",
+    "Solution steps": [
+      "Step 1 (Remember): Recognize the program's structure: an if-else statement that checks whether $x < 0$. If true, execute $y = (x+1) \\cdot (x+1)$. Otherwise, execute $y = (x-1) \\cdot (x-1)$.",
+      "Step 2 (Understand): Since $x = 5$, the condition $x < 0$ is false. Thus, execute the else branch: $y = (x-1) \\cdot (x-1)$. Substitute $x = 5$: $y = (5-1) \\cdot (5-1) = 4 \\cdot 4 = 16$."
+    ],
+    "Final Answer": "16"
+  },
+  {
+    "Problem": "Given an acute triangle $\\triangle ABC$ with side lengths $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$ respectively, and $b=2a\\sin B$, then the range of $\\cos B+\\sin C$ is ( ).",
+    "Knowledge Point Hierarchy": "Mathematics -> Geometry -> Plane Geometry -> Triangles -> Trigonometric Relationships",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 3,
+    "Cognitive Goal Analysis": "Remember: Recall the Law of Sines and trigonometric identities. Understand: Interpret the given condition $b=2a\\sin B$ in the context of the Law of Sines. Apply: Apply trigonometric identities to express $\\cos B + \\sin C$ in terms of angle $B$. Analyze: Analyze the range of $\\cos B + \\sin C$ based on the constraints of an acute triangle.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the Law of Sines: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$.",
+      "Step 2 (Understand): Use the given condition $b=2a\\sin B$ to deduce $\\sin A = \\frac{1}{2}$, so $A = 30^\\circ$.",
+      "Step 3 (Apply): Express $\\cos B + \\sin C$ using angle relationships in a triangle: $C = 150^\\circ - B$.",
+      "Step 4 (Analyze): Analyze the range of $\\cos B + \\sin(150^\\circ - B)$ for $B$ in the range $(60^\\circ, 90^\\circ)$."
+    ],
+    "Final Answer": "The range of $\\cos B + \\sin C$ is $\\left(\\frac{\\sqrt{3}}{2}, 1\\right)$."
+  },
+  {
+    "Problem": "The equation of the tangent line to the graph of the function f\\left(x\\right)=x^{4}-2x^{3} at the point \\left(1,f\\left(1\\right)\\right) is ( ).",
+    "Knowledge Point Hierarchy": "Mathematics -> Calculus -> Derivatives -> Tangent Lines",
+    "Bloom’s cognitive level": 3,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the formula for the slope of a tangent line using derivatives. Understand: Explain how to compute the derivative of the given function and evaluate it at the specified point. Apply: Use the point-slope form of a line to write the equation of the tangent line.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall that the slope of the tangent line is given by the derivative of the function evaluated at the point of tangency.",
+      "Step 2 (Understand): Compute the derivative of f(x) = x^4 - 2x^3. The derivative is f'(x) = 4x^3 - 6x^2. Evaluate f'(1) = 4(1)^3 - 6(1)^2 = -2.",
+      "Step 3 (Apply): Evaluate f(1) = (1)^4 - 2(1)^3 = -1. Use the point-slope form y - y_1 = m(x - x_1) with m = -2, x_1 = 1, and y_1 = -1. The equation becomes y + 1 = -2(x - 1), which simplifies to y = -2x + 1."
+    ],
+    "Final Answer": "y=-2x+1"
+  },
+  {
+    "Problem": "Given the line $l: (1+4k)x - (2-3k)y + (2-3k) = 0$ $(k \\in \\mathbb{R})$, find the fixed point that line $l$ always passes through.",
+    "Knowledge Point Hierarchy": "Mathematics -> Algebra -> Linear Equations -> Parametric Lines",
+    "Bloom’s cognitive level": 4,
+    "Difficulty": 2,
+    "Cognitive Goal Analysis": "Remember: Recall the form of a parametric line equation. Understand: Explain that the fixed point is independent of $k$. Apply: Substitute specific values of $k$ to identify the fixed point. Analyze: Compare results from different substitutions to deduce the fixed point.",
+    "Solution steps": [
+      "Step 1 (Remember): Recall the general form of a linear equation: $Ax + By + C = 0$. Here, the coefficients depend on $k$.",
+      "Step 2 (Understand): Understand that the fixed point does not depend on $k$. To find it, substitute specific values of $k$ and solve for the intersection.",
+      "Step 3 (Apply): Let $k = 0$: The equation becomes $x - 2y + 2 = 0$. Let $k = 1$: The equation becomes $5x + y - 1 = 0$. Solve these two equations simultaneously to find the fixed point.",
+      "Step 4 (Analyze): Solve the system of equations: From $x - 2y + 2 = 0$, express $x = 2y - 2$. Substitute into $5x + y - 1 = 0$: $5(2y - 2) + y - 1 = 0$, which simplifies to $10y - 10 + y - 1 = 0$, or $11y = 11$, so $y = 1$. Substituting back, $x = 2(1) - 2 = 0$. Thus, the fixed point is $(0, 1)$."
+    ],
+    "Final Answer": "$(0, 1)$"
+  }
+]
